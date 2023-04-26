@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_NoResult</name>
+   <tag></tag>
+   <elementGuidId>042b647a-9860-4623-929e-a4d4a2229946</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='no-result']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.no-result</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'No products were found that matched your criteria.' or . = 'No products were found that matched your criteria.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b74cd92-d246-4e22-a8fc-897f0ad818cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>no-result</value>
+      <webElementGuid>052656ea-98d4-4c9f-b42d-808a6282feaf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No products were found that matched your criteria.</value>
+      <webElementGuid>edc02ae6-4db3-41ec-bcce-f11a7bb4d175</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;html-search-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page search-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;search-results&quot;]/div[@class=&quot;products-container&quot;]/div[@class=&quot;products-wrapper&quot;]/div[@class=&quot;no-result&quot;]</value>
+      <webElementGuid>246b8ad5-80f7-4404-8e44-db30f5959ed9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[3]/following::div[5]</value>
+      <webElementGuid>c55a4cbd-0ef2-494e-8ada-c3f23891e863</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search In product descriptions'])[1]/following::div[6]</value>
+      <webElementGuid>d6534d4f-fc37-48e6-befb-d5cf3a32ff09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Information'])[1]/preceding::div[1]</value>
+      <webElementGuid>8d12ade0-b6bf-421c-9088-3543b3bc5fc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sitemap'])[1]/preceding::div[2]</value>
+      <webElementGuid>426d5d05-2d0c-4e08-9d2d-e6d6f024d6e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No products were found that matched your criteria.']/parent::*</value>
+      <webElementGuid>e82079c3-6eb0-46ce-99e8-775d91352465</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div[2]/div</value>
+      <webElementGuid>b0855475-1736-4462-b155-64e16da1458c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'No products were found that matched your criteria.' or . = 'No products were found that matched your criteria.')]</value>
+      <webElementGuid>7343a980-b0ac-4ec4-98e3-d90f61a49e97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

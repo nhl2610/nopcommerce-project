@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Zip  postal code is required</name>
+   <tag></tag>
+   <elementGuidId>14cd4f95-d509-48d5-9d0e-1164d44057fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Address_ZipPostalCode-error</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='Address_ZipPostalCode-error']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>3e76fdae-a994-47c4-a7ee-def2c9830910</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Address_ZipPostalCode-error</value>
+      <webElementGuid>f84c8c92-e945-4072-b4ce-01e054ebce34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Zip / postal code is required</value>
+      <webElementGuid>8f9ba15f-ab98-4a3b-aea4-7e23c32a72fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Address_ZipPostalCode-error&quot;)</value>
+      <webElementGuid>f360ea04-23ed-476f-a238-d41da73bd865</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='Address_ZipPostalCode-error']</value>
+      <webElementGuid>48169270-31ea-4af0-8ce7-df5256aa2b72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::span[2]</value>
+      <webElementGuid>42ed5446-e5e2-4853-969a-bf383733825c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip / postal code:'])[1]/following::span[3]</value>
+      <webElementGuid>27bdc2f5-7e51-4d14-9c1b-553f87b5d97b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone number:'])[1]/preceding::span[1]</value>
+      <webElementGuid>5e77ef65-620c-4757-830a-f22bd5d8ddbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/preceding::span[1]</value>
+      <webElementGuid>cea72b37-510a-4370-a865-5b013800b90f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Zip / postal code is required']/parent::*</value>
+      <webElementGuid>2e3446f3-3f2c-4fd7-a13b-f03a15c2c345</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/span[2]/span</value>
+      <webElementGuid>13d031c2-8841-40ea-9ad6-2fb9a30d3cb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'Address_ZipPostalCode-error' and (text() = 'Zip / postal code is required' or . = 'Zip / postal code is required')]</value>
+      <webElementGuid>a3b5acde-5e96-4bb2-900d-21e243ca5d64</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Search</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fb69674a-be2f-44a1-964e-cf1d275b1ee2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b266a5e-5e94-48e2-8fbd-dfb04f1eb566</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>65900f6c-7a84-41e2-a71c-b2286741d41c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>3b266a5e-5e94-48e2-8fbd-dfb04f1eb566</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apple'</defaultValue>
+      <description></description>
+      <id>65900f6c-7a84-41e2-a71c-b2286741d41c</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>
