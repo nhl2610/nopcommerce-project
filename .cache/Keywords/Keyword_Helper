@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "E2B4986D2B0B4DC46B0D553AD1187F58",
+  "keywordFileContentHash": "A60C38C984D311EB991366A7973BAB31",
   "keywordClasses": [
     {
       "name": "Keyword_Helper",
@@ -33,8 +33,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "register",
@@ -104,8 +103,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "clearsendKeys",
@@ -136,8 +134,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "addAddress",
@@ -246,8 +243,7 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         },
         {
           "name": "randomNumber",
@@ -278,11 +274,10 @@
                 "errorOnParsing": false
               }
             }
-          ],
-          "javadoc": ""
+          ]
         }
       ]
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

@@ -6,12 +6,12 @@
    <elementGuidId>8bbcab59-4d20-4d4a-993c-703d15bd81b6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Address_City</value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Address_City')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Address_City']</value>
+         <key>CSS</key>
+         <value>#Address_City</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>86ee47be-7fcf-44ef-93f4-84dd28ad88a8</webElementGuid>
+      <webElementGuid>42f6f6d7-e402-4df6-8fbe-be9818fcf47a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e6501268-21cc-461a-9709-670255ceeeb6</webElementGuid>
+      <webElementGuid>5974ef68-24ba-4685-8089-f2154ec28b24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>166aa169-edb4-4060-b956-9420665b4a6d</webElementGuid>
+      <webElementGuid>0b102383-a122-4ae1-ac56-ff6fd551bc31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>City is required</value>
-      <webElementGuid>5903f830-6e45-4773-9433-09ab3a427970</webElementGuid>
+      <webElementGuid>fcbdb2a7-181f-4eb0-afe0-7df6672596d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Address_City</value>
-      <webElementGuid>2c869ba4-fba3-4596-8724-e95656396016</webElementGuid>
+      <webElementGuid>048549e8-1d43-4f58-92a3-290828c95afb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Address.City</value>
-      <webElementGuid>469cfe35-0b5b-4249-9af1-da640c33f399</webElementGuid>
+      <webElementGuid>78a167c5-0929-4997-9d0e-297e47abadb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Hà Nội</value>
-      <webElementGuid>1244d58d-1586-46ec-9371-40210761b614</webElementGuid>
+      <webElementGuid>bf69ca88-cd81-4ad7-8b41-6cbacca4a739</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Address_City&quot;)</value>
-      <webElementGuid>ce977528-073f-44fe-b637-436d5b0fac3b</webElementGuid>
+      <webElementGuid>d36aa5a6-b546-460b-9812-775006447ef5</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Address_City']</value>
-      <webElementGuid>69c4214b-e7e5-4e9c-a97a-521a4251e5b6</webElementGuid>
+      <webElementGuid>2e65c7ef-f519-42d5-8989-1c9dddb18aba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/input</value>
-      <webElementGuid>737f7eba-a2ae-451d-aea2-4cfe5946c806</webElementGuid>
+      <webElementGuid>c42e6f9d-e83c-4f8e-a58f-600b8cbdfeab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'Address_City' and @name = 'Address.City']</value>
-      <webElementGuid>2ef5c773-5ce5-4c99-9d01-3c7f96b9bca0</webElementGuid>
+      <webElementGuid>cd3a4875-47d5-46f9-828c-a2b629a8c24c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

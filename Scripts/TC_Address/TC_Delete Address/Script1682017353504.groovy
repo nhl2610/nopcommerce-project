@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
+CustomKeywords.'OpenBrowser.initBrowser'()
+
+WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
+
+CustomKeywords.'Keyword_Helper.login'('james_pan@nopCommerce.com', '123456')
 
 WebUI.click(findTestObject('Page_HomePage/a_My account'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>9e8fb377-62c4-47d8-945f-38ef102ae840</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.phone</value>
+         <key>XPATH</key>
+         <value>//li[@class='phone'][1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='phone']</value>
+         <key>CSS</key>
+         <value>li.phone</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>a8b9de5e-fbbd-4070-8bde-c8dbdbabebe4</webElementGuid>
+      <webElementGuid>32dade26-56f0-447b-b0dc-944d17b7a088</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>phone</value>
-      <webElementGuid>da77d6d2-b6c5-4347-8cfd-5e7a5c4c4597</webElementGuid>
+      <webElementGuid>2aa80d27-71e1-4850-93b3-03d057de6cae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Phone number: jfmygt</value>
-      <webElementGuid>0bb56395-a613-450c-a243-3769c919227c</webElementGuid>
+      <webElementGuid>d3f4bf77-6af6-47ae-8822-f391e5aaa526</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;html-account-page html-address-list-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page account-page address-list-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;address-list&quot;]/div[@class=&quot;section address-item&quot;]/ul[@class=&quot;info&quot;]/li[@class=&quot;phone&quot;]</value>
-      <webElementGuid>ceba7e5c-2e9a-473e-80ef-e428e68a95b4</webElementGuid>
+      <webElementGuid>600a979e-14a6-4b97-b0e3-a6b384fed557</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/following::li[1]</value>
-      <webElementGuid>e88ca9cc-cb42-4cd8-844d-02eea4698762</webElementGuid>
+      <webElementGuid>bb50d2a2-0531-4064-aae7-d77a86cfb872</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax number:'])[1]/preceding::li[1]</value>
-      <webElementGuid>1942921f-847a-4227-8fc0-b64abc93bbb4</webElementGuid>
+      <webElementGuid>5fb01026-81ba-4f85-ad43-804731702cb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='jfmygt']/parent::*</value>
-      <webElementGuid>30c4abce-5cc2-477a-be5b-806e20c6939a</webElementGuid>
+      <webElementGuid>797920fc-7d4b-4fa2-90bd-5d6482e5ad65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[3]</value>
-      <webElementGuid>097d9ba8-4c60-4e18-91be-511eb3d66057</webElementGuid>
+      <webElementGuid>5b0505d7-4eb3-44f8-b762-7a8e3074087a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Phone number: jfmygt' or . = 'Phone number: jfmygt')]</value>
-      <webElementGuid>e1233c3a-dd45-4632-ad70-77180e8e8a5b</webElementGuid>
+      <webElementGuid>0f1ffcea-6516-4ce8-8162-a375a5ba463c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

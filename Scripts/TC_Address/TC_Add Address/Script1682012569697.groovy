@@ -17,21 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//CustomKeywords.'OpenBrowser.initBrowser'()
-//
-//WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
-//
-//CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
+CustomKeywords.'OpenBrowser.initBrowser'()
+
+WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
+
+CustomKeywords.'Keyword_Helper.login'('james_pan@nopCommerce.com', '123456')
+
 WebUI.click(findTestObject('Page_HomePage/a_My account'))
 
-		WebUI.click(findTestObject('Page_Account/a_menu Address'))
+WebUI.click(findTestObject('Page_Account/a_menu Address'))
 
-		WebUI.click(findTestObject('Page_Account Address/button_Add new'))
-
+WebUI.click(findTestObject('Page_Account Address/button_Add new'))
 
 CustomKeywords.'Keyword_Helper.addAddress'(firstname, lastname, email, country, city, address, zipcode, phone)
 
-if (id == '1') {
+WebUI.click(findTestObject('Page_Account Address/button_Save'))
+
+if (id == '4') {
     WebUI.delay(2)
 
     WebUI.click(findTestObject('Page_Account Address/span_My account_close'))
@@ -57,7 +59,7 @@ if (id == '1') {
     assert WebUI.getText(findTestObject('Object Repository/Page_Account Address/li_InfoCountry')).contains(country) == true
 }
 
-if(id == '2')
+if(id == '1')
 {
 	expected = WebUI.getText(findTestObject('Object Repository/Page_Account Address/span_First name is required'))
 	
@@ -89,22 +91,21 @@ if(id == '2')
 	
 }
 
-if(id=="3")
+if(id=="2")
 {
 	expected = WebUI.getText(findTestObject('Object Repository/Page_Account Address/span_Email is required'))
 	
 	assert expected.contains("Wrong email") == true
 }
 
-if(id=="4")
+if(id=="3")
 {
 	WebUI.delay(2)
-	
 	WebUI.click(findTestObject('Page_Account Address/span_My account_close'))
 	expected = WebUI.getText(findTestObject('Object Repository/Page_Account Address/span_Phone is required'))
 
 	assert expected.contains("Phone is wrong") == true
 }
 
-//WebUI.closeBrowser()
+WebUI.closeBrowser()
 

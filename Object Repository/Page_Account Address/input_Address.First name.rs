@@ -6,12 +6,12 @@
    <elementGuidId>9afc8aae-fcdb-4cc6-9f7a-dc717c729909</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Address_FirstName</value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Address_FirstName')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Address_FirstName']</value>
+         <key>CSS</key>
+         <value>#Address_FirstName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>48ea8034-24c3-44e7-864f-6ed16f0c3ba9</webElementGuid>
+      <webElementGuid>e672652d-90eb-4566-adf5-dbf30a8917af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>af42daf8-de2a-43c1-867a-8b36e236bb1d</webElementGuid>
+      <webElementGuid>686b9ff5-0eae-4ea9-b2cc-6b8fea443e68</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>58da8409-22bb-4088-b9bc-e75217460c63</webElementGuid>
+      <webElementGuid>6c8523ea-160e-4d38-9c6c-1335f8664ca9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>First name is required.</value>
-      <webElementGuid>15953491-abba-4d84-8292-7a623fa0650d</webElementGuid>
+      <webElementGuid>a5f89b11-0c5b-4108-a9cb-116cc824795e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Address_FirstName</value>
-      <webElementGuid>529ec81a-7881-4284-9362-9151ecca1bc4</webElementGuid>
+      <webElementGuid>af9157a4-322c-4b0d-bf00-d7e11c0bfcea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Address.FirstName</value>
-      <webElementGuid>96528cfd-3a9b-41a7-8c83-16fca045b8ec</webElementGuid>
+      <webElementGuid>e4598fb0-d931-46e3-950b-ab849a63aa7f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Nguyễn</value>
-      <webElementGuid>5d51a6c8-2b20-47e2-b42b-4d4002f51705</webElementGuid>
+      <webElementGuid>3dad893d-162c-4d04-8ee6-473d16f592f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Address_FirstName&quot;)</value>
-      <webElementGuid>cb9b0b76-b83b-4766-8aa7-e1c0d0b3a39d</webElementGuid>
+      <webElementGuid>229bea2c-e030-4855-b1e1-f5042f6e8072</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Address_FirstName']</value>
-      <webElementGuid>83c6c034-411a-4316-88d3-1eb7fe0aecc1</webElementGuid>
+      <webElementGuid>9be6612d-dc1a-43a6-95db-f8373237b656</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/input</value>
-      <webElementGuid>d141ae8a-0228-4043-bd6c-3c1ef1e0e87b</webElementGuid>
+      <webElementGuid>04b8e420-545f-47a2-87c3-e4ff66a8bc2f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'Address_FirstName' and @name = 'Address.FirstName']</value>
-      <webElementGuid>108e3d3c-fb45-46f8-a590-3e091086bf3c</webElementGuid>
+      <webElementGuid>d4e58e50-c704-4178-8460-f51e13ddca1a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

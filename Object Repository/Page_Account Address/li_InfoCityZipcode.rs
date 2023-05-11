@@ -6,12 +6,12 @@
    <elementGuidId>42b89097-94cb-4e2f-8b03-7268627d023d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.city-state-zip</value>
+         <key>XPATH</key>
+         <value>//li[@class='city-state-zip'][1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='city-state-zip']</value>
+         <key>CSS</key>
+         <value>li.city-state-zip</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>fe2fd420-8a13-4f5a-95c0-a29ded6c883c</webElementGuid>
+      <webElementGuid>3251159d-c375-44ec-9136-dbeb8dafeffe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>city-state-zip</value>
-      <webElementGuid>8c1ec004-bb4b-491f-b49e-69d5f8bcf3d9</webElementGuid>
+      <webElementGuid>f323af13-f770-4590-91c2-fd6fd86f5c92</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Hà Nội, Texas, 2133456</value>
-      <webElementGuid>40107f84-3ae4-4985-ba8d-a56ea5ea6076</webElementGuid>
+      <webElementGuid>f6ccd7f0-469c-41ff-9246-925062a23927</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;html-account-page html-address-list-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page account-page address-list-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;address-list&quot;]/div[@class=&quot;section address-item&quot;]/ul[@class=&quot;info&quot;]/li[@class=&quot;city-state-zip&quot;]</value>
-      <webElementGuid>18593d41-ab10-4858-a276-6b28e1d344d8</webElementGuid>
+      <webElementGuid>d1fe7d9e-5df9-4c67-822a-f3e06f02bc84</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax number:'])[1]/following::li[2]</value>
-      <webElementGuid>be844c4c-5a16-4fa0-a088-97468d3a282c</webElementGuid>
+      <webElementGuid>247f5eef-57ad-46e4-b43d-fe603e64ad45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone number:'])[1]/following::li[3]</value>
-      <webElementGuid>5198404c-f956-444e-819a-3a2bb6ba5aff</webElementGuid>
+      <webElementGuid>100c3515-ee45-4ad3-90d1-8e487a104371</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='United States'])[1]/preceding::li[1]</value>
-      <webElementGuid>bb0cee5b-9ebb-4867-a83f-0f2a409ac919</webElementGuid>
+      <webElementGuid>fbe06e01-7275-4543-ba5d-cf3c09c78813</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::li[2]</value>
-      <webElementGuid>ac1d4a58-1887-4535-97b1-3e9651bea609</webElementGuid>
+      <webElementGuid>dbbe5c7c-0a12-4f8d-9eb4-0dec61788aad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Hà Nội, Texas, 2133456']/parent::*</value>
-      <webElementGuid>9202e0f0-5218-4d5d-abd4-c6197f69ab2c</webElementGuid>
+      <webElementGuid>6cc9d33a-0209-4fd4-bd82-aa71961df4bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[6]</value>
-      <webElementGuid>5e0026ce-c050-41ca-a89b-12cda4f063d5</webElementGuid>
+      <webElementGuid>81007527-28e4-4916-9760-6bcc12cfd76f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Hà Nội, Texas, 2133456' or . = 'Hà Nội, Texas, 2133456')]</value>
-      <webElementGuid>0deb74dd-beff-4c68-a60f-196b4c578fd0</webElementGuid>
+      <webElementGuid>f5c6eb0e-a0f1-4a73-af59-c7675833265f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

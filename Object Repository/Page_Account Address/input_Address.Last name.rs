@@ -6,12 +6,12 @@
    <elementGuidId>9c08abc5-550f-4ab4-95f6-7c0c32c5cc2c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Address_LastName</value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Address_LastName')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Address_LastName']</value>
+         <key>CSS</key>
+         <value>#Address_LastName</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2a277635-4c66-4607-aef4-d6994285b0ca</webElementGuid>
+      <webElementGuid>fc7f46c5-418a-44be-ad3a-5300d18b26c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>133c5024-7594-4ca9-bc26-fd0c1b7abd04</webElementGuid>
+      <webElementGuid>aecdef14-0e0e-4b2d-93b9-ca0efb3c9238</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e2b68eb8-0ecb-4868-b111-07c1fb00a3f5</webElementGuid>
+      <webElementGuid>83119329-ac59-41f7-b68e-8cc372e95d77</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>Last name is required.</value>
-      <webElementGuid>e9777e06-5d4d-4d0a-a158-68a13d723418</webElementGuid>
+      <webElementGuid>a2003280-0a9c-4282-85f3-cd6042e33a56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Address_LastName</value>
-      <webElementGuid>f5cb46ef-bfac-4886-837f-35ef966764f1</webElementGuid>
+      <webElementGuid>1af1a17d-5ccb-4457-9f26-b9affaa6dba1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Address.LastName</value>
-      <webElementGuid>d344c1a9-0a25-4368-a915-3d7626177882</webElementGuid>
+      <webElementGuid>fb972a9a-e729-45b0-98d9-101bc7bfbe71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>value</name>
       <type>Main</type>
       <value>Hường</value>
-      <webElementGuid>7379391d-6f69-4727-8754-97b0d1e4cdca</webElementGuid>
+      <webElementGuid>73ed141d-0168-4bb6-8c09-d644a0bab3e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>Address_LastName-error</value>
-      <webElementGuid>c4a57f9f-ab6e-4043-8ad5-10306fadc908</webElementGuid>
+      <webElementGuid>b103aaa4-8358-4c87-9d90-0167f32097bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>class</name>
       <type>Main</type>
       <value>valid</value>
-      <webElementGuid>ea7ce6a1-8605-4066-9b80-88c5b6cc174d</webElementGuid>
+      <webElementGuid>cbd1be84-3e64-4621-bcb4-455df759c015</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>24a8fe84-f852-4c77-a0d1-895993b7691c</webElementGuid>
+      <webElementGuid>dfb799dd-cae7-407b-8f7d-dc04a164a49a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Address_LastName&quot;)</value>
-      <webElementGuid>d24fa7e6-6867-4f17-9d11-9ebc9a2e6658</webElementGuid>
+      <webElementGuid>19fc57aa-6d06-4239-aadd-d3025771261f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Address_LastName']</value>
-      <webElementGuid>9a13dd65-5ef5-43fa-878a-0fdefc476abf</webElementGuid>
+      <webElementGuid>14b8c5ad-67bb-4c13-989f-cfc1062141c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/input</value>
-      <webElementGuid>c1f0ab71-c254-47de-8e85-43b9ef44b7f1</webElementGuid>
+      <webElementGuid>5f568fe4-3d80-47b1-abb8-3d15a8f3c119</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'Address_LastName' and @name = 'Address.LastName']</value>
-      <webElementGuid>bea3a2fa-60df-4def-913a-37cd0847c370</webElementGuid>
+      <webElementGuid>a7d81eb6-ddb0-4051-97ee-fac701d583cb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

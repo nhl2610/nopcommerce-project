@@ -6,6 +6,7 @@
    <UUID>ce5c762d-ed4e-4cc7-9792-29c114003a39</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>E:\Learning\Katalon\Project\nopCommerce\nopCommerce.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

@@ -59,6 +59,12 @@
       <value></value>
       <variableId>919a48fe-ef2f-47d6-a36f-7d8b74a9fa93</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>81763454-a7e7-45fd-b147-41ce03bc0828</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -121,5 +127,12 @@
       <id>919a48fe-ef2f-47d6-a36f-7d8b74a9fa93</id>
       <masked>false</masked>
       <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>81763454-a7e7-45fd-b147-41ce03bc0828</id>
+      <masked>false</masked>
+      <name>description</name>
    </variable>
 </TestCaseEntity>

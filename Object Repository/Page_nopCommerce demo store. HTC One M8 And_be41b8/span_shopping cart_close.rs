@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_shopping cart_close</name>
+   <tag></tag>
+   <elementGuidId>696dbafe-d633-4cb4-8fb8-435229737ad1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.close</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bar-notification']/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0e5cb274-ff9c-4cb2-8ee8-c7c5f199af60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>close</value>
+      <webElementGuid>90b1cb5b-7705-41be-bd9f-b7532b0c9c4b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>fb2bdf66-268c-46cf-a897-2d4d29ecde8f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bar-notification&quot;)/div[@class=&quot;bar-notification success&quot;]/span[@class=&quot;close&quot;]</value>
+      <webElementGuid>5daf0010-1a4e-41e9-adfc-97714a8a67c5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bar-notification']/div/span</value>
+      <webElementGuid>6cd01bb2-fca1-4a7c-aee2-c14ae3449193</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>7ff74045-cde0-4830-b9e0-d27dcf0ed18a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@title = 'Close']</value>
+      <webElementGuid>b175962b-5da3-4dd6-ab56-6b9d435745ac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

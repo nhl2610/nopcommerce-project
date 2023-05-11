@@ -69,7 +69,7 @@ public class Keyword_Helper {
 		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.Email'), email)
 
 		if(country != "") WebUI.selectOptionByLabel(findTestObject('Page_Account Address/select_Select country'), country, true)
-
+			else WebUI.selectOptionByIndex(findTestObject('Page_Account Address/select_Select country'), 0, true)
 
 		WebUI.clearText(findTestObject('Page_Account Address/input_Address.City'))
 
@@ -89,8 +89,6 @@ public class Keyword_Helper {
 		WebUI.clearText(findTestObject('Page_Account Address/input_Address.PhoneNumber'))
 
 		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.PhoneNumber'), phone)
-
-		WebUI.click(findTestObject('Page_Account Address/button_Save'))
 	}
 
 	@Keyword

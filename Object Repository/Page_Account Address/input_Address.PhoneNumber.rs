@@ -6,12 +6,12 @@
    <elementGuidId>39d64013-53d5-4b7f-9f79-3d7c7424a982</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Address_PhoneNumber</value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Address_PhoneNumber')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Address_PhoneNumber']</value>
+         <key>CSS</key>
+         <value>#Address_PhoneNumber</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a64a3a0c-2fb4-4160-9d2f-12309544bdb4</webElementGuid>
+      <webElementGuid>d63d9cd5-097d-47a3-ac0c-19ba007e2c7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>tel</value>
-      <webElementGuid>6e0abb5f-16f4-4b47-a67e-9583dad96831</webElementGuid>
+      <webElementGuid>d6c2ab82-66e8-4c71-96f5-f657512ffe10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cb8edee9-895d-4f0f-acad-d05e91a3c9c5</webElementGuid>
+      <webElementGuid>1b72804f-2539-420c-9b59-f7c495885561</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>Phone is required</value>
-      <webElementGuid>aea0b4ff-8ed6-4565-be2b-09b2194ace97</webElementGuid>
+      <webElementGuid>94dd1a61-48b6-4752-a04a-82fa51552436</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Address_PhoneNumber</value>
-      <webElementGuid>a42a4f9a-2eed-4541-a64d-1f61a5c102a8</webElementGuid>
+      <webElementGuid>72598b9b-fffd-4c10-b8f8-b6f911af790c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Address.PhoneNumber</value>
-      <webElementGuid>f89609f2-0fea-43da-ad59-d229a1215348</webElementGuid>
+      <webElementGuid>3cb0fff7-43ce-4f09-a4c4-2d6b1508a3e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>value</name>
       <type>Main</type>
       <value>jfmygt</value>
-      <webElementGuid>c8c97103-4983-4e98-905a-e0c2a1237fc3</webElementGuid>
+      <webElementGuid>189832e8-db36-43c6-b5d6-9fb9d60650c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Address_PhoneNumber&quot;)</value>
-      <webElementGuid>72618742-0758-48e7-8329-39912403b9f0</webElementGuid>
+      <webElementGuid>3072b931-02e5-454a-ace1-99c3a5583b2e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Address_PhoneNumber']</value>
-      <webElementGuid>ee9adf1c-f0d8-4601-b02f-87079a45954d</webElementGuid>
+      <webElementGuid>520a0128-d375-4380-a8fa-266b33d22848</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[11]/input</value>
-      <webElementGuid>6b21c5a7-56f2-4b76-ab1b-c6fcad0d3e83</webElementGuid>
+      <webElementGuid>9c90739b-930b-4833-8dab-017945bb5900</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'tel' and @id = 'Address_PhoneNumber' and @name = 'Address.PhoneNumber']</value>
-      <webElementGuid>71f2a6fb-f335-4d78-90c6-e78de1e36f10</webElementGuid>
+      <webElementGuid>8212d8b3-dacc-4d67-9345-49344201abf3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

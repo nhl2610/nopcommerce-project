@@ -44,5 +44,11 @@
          <value>id</value>
          <variableId>62f15f6e-2189-41f8-a271-d5b7ce5c31cd</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>27889d92-ed07-41b7-9939-36f9cc1f8bf5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>353e2707-afb8-485b-a9c2-bcab22a6a2a3</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

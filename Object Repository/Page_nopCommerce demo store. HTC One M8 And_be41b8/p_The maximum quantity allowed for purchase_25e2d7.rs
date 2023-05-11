@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_The maximum quantity allowed for purchase_25e2d7</name>
+   <tag></tag>
+   <elementGuidId>ae30abaa-7baa-416a-bdbf-2f56c7bb12ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.content</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='bar-notification']/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>3a31310b-c7bb-41de-8ef0-79d7857afd26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>content</value>
+      <webElementGuid>2aa86a98-af8e-43e9-bced-bfbace1aafe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>The maximum quantity allowed for purchase is 10000.</value>
+      <webElementGuid>bde8cd9f-4cc2-4268-aeb6-3ddf8a0afd98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;bar-notification&quot;)/div[@class=&quot;bar-notification error&quot;]/p[@class=&quot;content&quot;]</value>
+      <webElementGuid>a46a536e-a1e5-4804-9083-42b1d1204368</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='bar-notification']/div/p</value>
+      <webElementGuid>2cb1ffd2-9193-4505-8d8b-d19056724494</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/preceding::p[1]</value>
+      <webElementGuid>a3898cde-c86b-4593-b08d-63cdb8140c4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/preceding::p[1]</value>
+      <webElementGuid>9106955d-a354-4759-b5c6-58ffbabef19d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='The maximum quantity allowed for purchase is 10000.']/parent::*</value>
+      <webElementGuid>5c276b05-e3a7-4ea3-8fc4-0a8b57b8d2df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>fbc7c844-cc59-4b81-90b0-cea7bb1a7334</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'The maximum quantity allowed for purchase is 10000.' or . = 'The maximum quantity allowed for purchase is 10000.')]</value>
+      <webElementGuid>dce76eb8-6408-4736-89a6-885c70ebd331</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

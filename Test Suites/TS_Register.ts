@@ -62,5 +62,11 @@
          <value>id</value>
          <variableId>a0ac1c3c-67b2-400c-9ca5-b0bbfefaacae</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>996ccabb-b222-4d53-b486-1631e5564f55</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>description</value>
+         <variableId>86df550f-518a-493c-a48b-18634f06a3dd</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

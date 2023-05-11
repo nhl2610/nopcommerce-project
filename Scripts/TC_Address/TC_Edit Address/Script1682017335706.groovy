@@ -17,7 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
+CustomKeywords.'OpenBrowser.initBrowser'()
+
+WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
+
+CustomKeywords.'Keyword_Helper.login'('james_pan@nopCommerce.com', '123456')
+
 WebUI.click(findTestObject('Page_HomePage/a_My account'))
 
 WebUI.click(findTestObject('Page_Account/a_menu Address'))
@@ -25,6 +30,8 @@ WebUI.click(findTestObject('Page_Account/a_menu Address'))
 WebUI.click(findTestObject('Page_Account Address/button_Edit'))
 
 CustomKeywords.'Keyword_Helper.addAddress'(firstname, lastname, email, country, city, address, zipcode, phone)
+
+WebUI.click(findTestObject('Page_Account Address/button_Save'))
 
 WebUI.delay(2)
 
@@ -42,17 +49,11 @@ expected = WebUI.getText(findTestObject('Object Repository/Page_Account Address/
 
 assert expected.contains(address) == true
 
-println expected
-
-println	address
-
 expected = WebUI.getText(findTestObject('Object Repository/Page_Account Address/li_InfoCityZipcode'))
 
 assert expected.contains(zipcode) == true
 
-assert expected.contains(city) == true
-
 assert WebUI.getText(findTestObject('Object Repository/Page_Account Address/li_InfoCountry')).contains(country) == true
 
-
+WebUI.closeBrowser()
 

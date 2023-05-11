@@ -25,13 +25,9 @@ import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-WebUI.click(findTestObject('Page_HomePage/a_Log in'))
+WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
 
-WebUI.setText(findTestObject('Page_Login/input_Email'), email)
-
-WebUI.setText(findTestObject('Page_Login/input_Password'), password)
-
-WebUI.click(findTestObject('Page_Login/button_Login'))
+CustomKeywords.'Keyword_Helper.login'('james_pan@nopCommerce.com', '123456')
 
 WebUI.click(findTestObject('Page_HomePage/a_Log out'))
 

@@ -6,12 +6,12 @@
    <elementGuidId>0ec07a34-6666-4f32-9f9d-ff0595b5c9ba</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Address_ZipPostalCode</value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Address_ZipPostalCode')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Address_ZipPostalCode']</value>
+         <key>CSS</key>
+         <value>#Address_ZipPostalCode</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>683f545f-4d8f-413d-85c5-39c47bba6095</webElementGuid>
+      <webElementGuid>c4045ef5-e78c-42a5-9054-2dee00ff74bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6b107661-378b-4e9f-bbf1-2a5b7f5be7c1</webElementGuid>
+      <webElementGuid>fcfa059c-a8a3-4fab-9514-6d762a5b021f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>88d21ba3-cf20-4e1a-b85e-d05a1c91d966</webElementGuid>
+      <webElementGuid>88872e7d-7a39-487e-ab2d-f864d7a6886b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>Zip / postal code is required</value>
-      <webElementGuid>47cf6d89-3969-4e55-91cc-10afeb0d9491</webElementGuid>
+      <webElementGuid>fdaec556-6287-4f41-bcdf-89dab9f63aea</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Address_ZipPostalCode</value>
-      <webElementGuid>0be83f97-b863-4ab0-aa51-9e44e8139768</webElementGuid>
+      <webElementGuid>d0b35236-3780-409d-8e9c-da6442b875aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Address.ZipPostalCode</value>
-      <webElementGuid>b3418250-76a3-4817-8081-3a83af5b9cc1</webElementGuid>
+      <webElementGuid>edab1390-917a-4ecc-b85c-76a9144d9de1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>value</name>
       <type>Main</type>
       <value>2133456</value>
-      <webElementGuid>dfe96a0b-1e72-4d8a-b7d2-54dc950597a3</webElementGuid>
+      <webElementGuid>07ff5bd5-5eed-4b52-8b98-2df244549fe5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Address_ZipPostalCode&quot;)</value>
-      <webElementGuid>795f2f0f-f6c3-48a0-b1c1-fb75404caebb</webElementGuid>
+      <webElementGuid>aa67c2b3-d111-4f1f-988c-92840be9b7cc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Address_ZipPostalCode']</value>
-      <webElementGuid>6b11a40f-4053-4a1f-a25f-d76cc5c62cdf</webElementGuid>
+      <webElementGuid>d6a0af69-ac5b-4528-9087-d1863bcf3d5c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/input</value>
-      <webElementGuid>65ba0783-c38f-4881-9ea7-c7f75989c451</webElementGuid>
+      <webElementGuid>c4c0cf07-3190-48c1-9531-1b71bcf0af18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'Address_ZipPostalCode' and @name = 'Address.ZipPostalCode']</value>
-      <webElementGuid>fd55db8b-fdb7-4750-889a-c1a8e4b35fa4</webElementGuid>
+      <webElementGuid>53cf9ef0-5baa-4cd8-bf9b-989c3d8f1e4f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

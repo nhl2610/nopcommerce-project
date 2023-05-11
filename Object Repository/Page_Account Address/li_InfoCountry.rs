@@ -6,12 +6,12 @@
    <elementGuidId>e33be580-a39b-4d56-aab7-458e89233641</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>li.country</value>
+         <key>XPATH</key>
+         <value>//li[@class='country'][1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='country']</value>
+         <key>CSS</key>
+         <value>li.country</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>b35c2101-9667-4a6f-b54f-2506ae51583b</webElementGuid>
+      <webElementGuid>84f4e6e9-6c9b-47cd-9ff3-ccbe4abf440c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>country</value>
-      <webElementGuid>34b0cf1a-4bd8-405c-b4c0-5987e5bb8037</webElementGuid>
+      <webElementGuid>c556f3da-ea25-441c-a284-11f562c40cc7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>United States</value>
-      <webElementGuid>30bc85c2-d288-4ec4-90de-49919b8920d4</webElementGuid>
+      <webElementGuid>522260bb-09e0-401a-acc0-30bd7047c126</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;html-account-page html-address-list-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page account-page address-list-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;address-list&quot;]/div[@class=&quot;section address-item&quot;]/ul[@class=&quot;info&quot;]/li[@class=&quot;country&quot;]</value>
-      <webElementGuid>0bdeebf3-b5e2-4393-8a8c-33cab160e6e8</webElementGuid>
+      <webElementGuid>a4affd5a-3d06-4e82-883d-1f678034f7d6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hà Nội, Texas, 2133456'])[1]/following::li[1]</value>
-      <webElementGuid>dd89d70b-7354-4665-b951-7ee45fe5d18c</webElementGuid>
+      <webElementGuid>2808cf74-72bc-435f-b580-04190c3bfa46</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax number:'])[1]/following::li[3]</value>
-      <webElementGuid>0c4fae50-3d89-4444-912f-49d79ed19b89</webElementGuid>
+      <webElementGuid>4ce8c7e0-924f-41c1-86d6-e0f395a966bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/preceding::li[1]</value>
-      <webElementGuid>7cbc88d3-2fe8-4cc6-8f10-4b44990c67e9</webElementGuid>
+      <webElementGuid>b7a90503-9f37-4b12-9690-3daa9e3e6854</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::li[1]</value>
-      <webElementGuid>e4e9309c-0164-47a1-b735-df43a2aecbd7</webElementGuid>
+      <webElementGuid>0e19125b-f0aa-40d7-8b89-5962c5ccca23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='United States']/parent::*</value>
-      <webElementGuid>8e0a307a-2c2a-4588-9c9d-2c09c5669650</webElementGuid>
+      <webElementGuid>3ea1c6b2-62f3-4e31-a755-0ad64591ef65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[7]</value>
-      <webElementGuid>ee1a60c2-550b-45f7-9934-045cc46710ca</webElementGuid>
+      <webElementGuid>9ba43943-b604-45b7-8510-56fa5fe04ea0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'United States' or . = 'United States')]</value>
-      <webElementGuid>416ed3ae-7f21-4e4b-95a5-3343805a09f7</webElementGuid>
+      <webElementGuid>ea80b297-517f-4bcc-9314-440605417405</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

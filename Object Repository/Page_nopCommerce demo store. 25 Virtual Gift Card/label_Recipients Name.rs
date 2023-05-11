@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Recipients Name</name>
+   <tag></tag>
+   <elementGuidId>8edf2b64-20d2-4688-935d-63ad6bfc598d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='product-details-form']/div[2]/div/div[2]/div[5]/div/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>2e96e64d-3512-4257-94fe-bb2750f6d69f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>giftcard_43_RecipientName</value>
+      <webElementGuid>d25b7e87-d3d7-445e-b6b9-ebf81bb878e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Recipient's Name:</value>
+      <webElementGuid>b41c0c33-1119-45c8-a907-ea685ae4119b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;product-details-form&quot;)/div[2]/div[@class=&quot;product-essential&quot;]/div[@class=&quot;overview&quot;]/div[@class=&quot;giftcard&quot;]/div[1]/label[1]</value>
+      <webElementGuid>5cda1a29-e729-4774-8a20-a24a48a9467e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='product-details-form']/div[2]/div/div[2]/div[5]/div/label</value>
+      <webElementGuid>87d425fe-ddd9-4bfa-98f2-fedca9347469</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VG_CR_025'])[1]/following::label[1]</value>
+      <webElementGuid>88910137-85d8-46b0-a4c7-f3a14cb94d18</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SKU:'])[1]/following::label[1]</value>
+      <webElementGuid>9e195b08-fb34-4ed0-8fd0-ae7dbf02e8cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::label[1]</value>
+      <webElementGuid>81139ee2-f255-4bca-94a4-da82155784be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Recipient', &quot;'&quot;, 's Email:')])[1]/preceding::label[1]</value>
+      <webElementGuid>43723f76-0a3d-4ee9-86b9-abb39d866d34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>f24914bf-bf02-4039-b52f-89667e95f31a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = concat(&quot;Recipient&quot; , &quot;'&quot; , &quot;s Name:&quot;) or . = concat(&quot;Recipient&quot; , &quot;'&quot; , &quot;s Name:&quot;))]</value>
+      <webElementGuid>c5625eb8-6a11-45b9-9a77-40b283ec93d6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

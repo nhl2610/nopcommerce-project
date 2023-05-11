@@ -15,37 +15,41 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.assertj.core.api.StringAssert as StringAssert
 import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-WebUI.click(findTestObject('Page_HomePage/a_Log in'))
+//WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
+//
+//WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
 
-CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
-
-WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
-
-WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
-
-WebUI.click(findTestObject('Page_HomePage/button_shopping cart_close'))
-
+//WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
+//CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
 WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 
 originalQuantity = WebUI.getAttribute(findTestObject('Page_Cart/input_quantity', [('i') : '1']), 'value')
 
-newQuantity = ((Integer.parseInt(originalQuantity) + 1) + '')
-
-CustomKeywords.'Keyword_Helper.clearsendKeys'(findTestObject('Page_Cart/input_quantity', [('i') : '1']), newQuantity)
+CustomKeywords.'Keyword_Helper.clearsendKeys'(findTestObject('Page_Cart/input_quantity', [('i') : '1']), qty)
 
 WebUI.click(findTestObject('Page_Cart/button_Update cart'))
 
-//if (WebUI.verifyElementVisible(findTestObject('Page_Cart/lbl_message quantity error'))) {
-//    assert WebUI.getText(findTestObject('Page_Cart/lbl_message quantity error')).contains('The maximum quantity allowed for purchase is ') == 
-//    true
-//} else {
-assert WebUI.getAttribute(findTestObject('Page_Cart/input_quantity', [('i') : '1']), 'value') == newQuantity
+if (id == '1') {
+    assert WebUI.getAttribute(findTestObject('Page_Cart/input_quantity', [('i') : '1']), 'value') == qty
+}
 
-//}
+if (id == '2') {
+    WebUI.verifyElementText(findTestObject('Page_Cart/lbl_message quantity error', [('index') : '1']), 'This product quantity must be greater than 0')
+}
+
+if (id == '3') {
+    expected = WebUI.getText(findTestObject('Page_Cart/lbl_message quantity error', [('index') : '1']))
+
+    assert expected.contains('The maximum quantity allowed for purchase is 10000.') == true
+}
+
+if (id == '4') {
+    WebUI.verifyElementText(findTestObject('Page_Cart/lbl_message quantity error', [('index') : '1']), 'Wrong quantity')
+}
+
 WebUI.closeBrowser()
 

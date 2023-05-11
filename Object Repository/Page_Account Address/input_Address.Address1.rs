@@ -6,12 +6,12 @@
    <elementGuidId>f6238f57-ffbf-4ba4-8a2d-13955ff8e2ae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#Address_Address1</value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'Address_Address1')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='Address_Address1']</value>
+         <key>CSS</key>
+         <value>#Address_Address1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ac0ada09-f014-4cae-b59c-d4b556f124cc</webElementGuid>
+      <webElementGuid>cf9aaf1c-eb8e-464f-a9e7-0db9f384174b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>5759e0dc-c5a8-4dfa-a894-9399fe256926</webElementGuid>
+      <webElementGuid>48353256-b47b-41f4-9103-d366fd9b3d3e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>cda0da2b-4383-4f72-b52d-1dfb860e2382</webElementGuid>
+      <webElementGuid>5384cb16-8362-4d3f-bb2d-c1ff1dfab940</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>Street address is required</value>
-      <webElementGuid>92618512-5bc9-4c1f-923d-a609ba156187</webElementGuid>
+      <webElementGuid>c61032db-d6f8-48c2-8298-fd634f71a8d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>Address_Address1</value>
-      <webElementGuid>42d69c06-65d0-4aa3-9112-dc42fed58b0c</webElementGuid>
+      <webElementGuid>b339bd87-fab1-43c2-80fa-e15a7f14ee5c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Address.Address1</value>
-      <webElementGuid>6901c9c3-d089-46b9-a7e8-c8921485f78f</webElementGuid>
+      <webElementGuid>375571d4-da58-45d6-85ed-f41c028451c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>value</name>
       <type>Main</type>
       <value>5a Trung Kính</value>
-      <webElementGuid>16711c08-633c-46a3-8855-c11d01fe2805</webElementGuid>
+      <webElementGuid>42dfd14c-3b3f-4a03-a8ba-f5c594e3e705</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;Address_Address1&quot;)</value>
-      <webElementGuid>d75ac28a-f686-43df-a018-7d4e61547aae</webElementGuid>
+      <webElementGuid>5ef5de04-12b6-4a58-a30a-06cd5a953b1a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='Address_Address1']</value>
-      <webElementGuid>59512552-099e-47d5-9754-bcb8b20b2148</webElementGuid>
+      <webElementGuid>5c4e078a-89f3-415d-bf33-6581cb57feed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/input</value>
-      <webElementGuid>7b4e5e12-5c3f-4972-b6bf-cc8935a6f1bb</webElementGuid>
+      <webElementGuid>5054d761-7fed-436b-ac74-ce73e3dbc044</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'Address_Address1' and @name = 'Address.Address1']</value>
-      <webElementGuid>92687c07-5702-4842-87d4-dd8ed225a138</webElementGuid>
+      <webElementGuid>f5951127-48b8-42ce-afcd-0f16d3809feb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
