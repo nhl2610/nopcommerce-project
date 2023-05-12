@@ -21,7 +21,7 @@ CustomKeywords.'OpenBrowser.initBrowser'()
 
 name1 = WebUI.getText(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 
-WebUI.click(findTestObject('Object Repository/Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
+WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 
 assert WebUI.getText(findTestObject('Page_ProductDetail/lbl_ProductName')) == name1
 

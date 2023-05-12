@@ -12,33 +12,36 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.WebElement as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-WebUI.setText(findTestObject('Page_HomePage/input_search'), name)
+WebUI.click(findTestObject('Page_HomePage/a_Log in'))
 
-WebUI.click(findTestObject('Page_HomePage/button_Search'))
-WebUI.delay(3);
-if (id == '1') {
-    List<WebElement> list = WebUiCommonHelper.findWebElements(findTestObject('Page_Search/item'), 30)
+CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
 
-    for (WebElement item : list) {
-		expected = item.getText()
-		assert expected.contains(name) == true
-    }
-}
+WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 
-if (id == '2') {
-    expected = WebUI.getText(findTestObject('Page_Search/div_NoResult'))
-	assert expected.contains('No products were found that matched your criteria.') == true
-}
+WebUI.setText(findTestObject('Page_ProductDetail/input_Quantity'), '-1')
+
+WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+
+WebUI.verifyElementText(findTestObject('Page_ProductDetail/div_bar-notification error'), 'Quantity should be positive')
+
+WebUI.setText(findTestObject('Page_ProductDetail/input_Quantity'), '1000000')
+
+WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+
+WebUI.verifyElementText(findTestObject('Page_ProductDetail/div_bar-notification error'), 'The maximum quantity allowed for purchase is 10000.')
+
+WebUI.setText(findTestObject('Page_ProductDetail/input_Quantity'), 'hjh')
+
+WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+
+WebUI.verifyElementText(findTestObject('Page_ProductDetail/div_bar-notification error'), 'Quantity should be positive')
 
 WebUI.closeBrowser()
 

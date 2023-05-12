@@ -12,33 +12,15 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
-import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.WebElement as WebElement
-import org.openqa.selenium.WebElement as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-WebUI.setText(findTestObject('Page_HomePage/input_search'), name)
+WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 
-WebUI.click(findTestObject('Page_HomePage/button_Search'))
-WebUI.delay(3);
-if (id == '1') {
-    List<WebElement> list = WebUiCommonHelper.findWebElements(findTestObject('Page_Search/item'), 30)
+WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
 
-    for (WebElement item : list) {
-		expected = item.getText()
-		assert expected.contains(name) == true
-    }
-}
-
-if (id == '2') {
-    expected = WebUI.getText(findTestObject('Page_Search/div_NoResult'))
-	assert expected.contains('No products were found that matched your criteria.') == true
-}
-
-WebUI.closeBrowser()
-
+assert WebUI.getUrl().contains("login") == true

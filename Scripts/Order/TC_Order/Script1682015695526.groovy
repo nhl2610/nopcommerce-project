@@ -21,16 +21,16 @@ import org.openqa.selenium.WebElement as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
+WebUI.click(findTestObject('Page_HomePage/a_Log in'))
 
 CustomKeywords.'Keyword_Helper.login'('arthur_holmes@nopCommerce.com', '123456')
 
 WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 
-List<WebElement> listPriceObj = WebUI.findWebElements(findTestObject('Page_Cart/span_listPrice'), 5)
+List<WebElement> listPriceObj = WebUI.findWebElements(findTestObject('Page_Shopping Cart/Page_Products In Cart/span_listPrice'), 5)
 def listPrice = [];
 
-List<WebElement> listQuantityObj = WebUI.findWebElements(findTestObject('Page_Cart/span_listQuantity'), 5)
+List<WebElement> listQuantityObj = WebUI.findWebElements(findTestObject('Page_Shopping Cart/Page_Products In Cart/span_listQuantity'), 5)
 def listQuantity = [];
 
 for (int i = 0;  i < listPriceObj.size(); ++i) {
@@ -45,33 +45,33 @@ WebUI.click(findTestObject('Page_Shopping Cart/button_Checkout'))
 //CustomKeywords.'Keyword_Helper.addAddress'('Luyen', 'Nguyen', 'nhl@gmail.com', 'Viet Nam', 'Ha Noi', 'Dong Anh', '111', 
 //    '032648445')
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinueAddress'))
+WebUI.click(findTestObject('Page_Checkout/Address/button_ContinueAddress'))
 
 shippingoption = CustomKeywords.'Keyword_Helper.randomNumber'(0, 3)
 
-WebUI.click(findTestObject('Page_Checkout/input_shippingoption', [('index') : shippingoption + '']))
+WebUI.click(findTestObject('Page_Checkout/Shipping Method/input_shippingoption', [('index') : shippingoption + '']))
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinueShippingMethod'))
+WebUI.click(findTestObject('Page_Checkout/Shipping Method/button_ContinueShippingMethod'))
 
 paymentmethod = CustomKeywords.'Keyword_Helper.randomNumber'(0, 2)
 
-WebUI.click(findTestObject('Page_Checkout/input_paymentmethod', [('index') : paymentmethod + '']))
+WebUI.click(findTestObject('Page_Checkout/Payment Method/input_paymentmethod', [('index') : paymentmethod + '']))
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentMethod'))
+WebUI.click(findTestObject('Page_Checkout/Payment Method/button_ContinuePaymentMethod'))
 
 if (paymentmethod == 1) {
-    WebUI.sendKeys(findTestObject('Page_Checkout/input_Cardholder name'), 'Jame')
+    WebUI.sendKeys(findTestObject('Page_Checkout/Payment Info/input_Cardholder name'), 'Jame')
 
-    WebUI.sendKeys(findTestObject('Page_Checkout/input_Card number'), '4263982640269299')
+    WebUI.sendKeys(findTestObject('Page_Checkout/Payment Info/input_Card number'), '4263982640269299')
 
-    WebUI.selectOptionByValue(findTestObject('Page_Checkout/select_month'), '2', false)
+    WebUI.selectOptionByValue(findTestObject('Page_Checkout/Payment Info/select_month'), '2', false)
 
-    WebUI.selectOptionByValue(findTestObject('Page_Checkout/select_year'), '2026', false)
+    WebUI.selectOptionByValue(findTestObject('Page_Checkout/Payment Info/select_year'), '2026', false)
 
-    WebUI.sendKeys(findTestObject('Page_Checkout/input_Card code'), '837')
+    WebUI.sendKeys(findTestObject('Page_Checkout/Payment Info/input_Card code'), '837')
 }
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentInfo'))
+WebUI.click(findTestObject('Page_Checkout/Payment Info/button_ContinuePaymentInfo'))
 
 WebUI.click(findTestObject('Page_Checkout/button_Confirm'))
 

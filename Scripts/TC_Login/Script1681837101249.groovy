@@ -19,44 +19,44 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
+WebUI.click(findTestObject('Page_HomePage/a_Log in'))
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Login/strong_LoginTitle'))
+WebUI.verifyElementVisible(findTestObject('Page_Login/strong_LoginTitle'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Email'), email)
+WebUI.setText(findTestObject('Page_Login/input_Email'), email)
 
-WebUI.setText(findTestObject('Object Repository/Page_Login/input_Password'), password)
+WebUI.setText(findTestObject('Page_Login/input_Password'), password)
 
-WebUI.click(findTestObject('Object Repository/Page_Login/button_Login'))
+WebUI.click(findTestObject('Page_Login/button_Login'))
 
 if(id.equals("1"))
 {
-	expected = WebUI.getText(findTestObject('Object Repository/Page_Login/lbl_emailError'))
+	expected = WebUI.getText(findTestObject('Page_Login/lbl_emailError'))
 	WebUI.verifyMatch(expected, 'Please enter your email', false)
 }
 
 if(id.equals("2"))
 	{
-		expected = WebUI.getText(findTestObject('Object Repository/Page_Login/lbl_Login was unsuccessful'))
+		expected = WebUI.getText(findTestObject('Page_Login/lbl_Login was unsuccessful'))
 		assert expected.contains('Please enter your password') == true
 	}
 
 if(id.equals("3"))
 {
-	expected = WebUI.getText(findTestObject('Object Repository/Page_Login/lbl_emailError'))
+	expected = WebUI.getText(findTestObject('Page_Login/lbl_emailError'))
 	WebUI.verifyMatch(expected, 'Wrong email', false)
 }
 
 if(id.equals("4"))
 {
-	expected = WebUI.getText(findTestObject('Object Repository/Page_Login/lbl_Login was unsuccessful'))
+	expected = WebUI.getText(findTestObject('Page_Login/lbl_Login was unsuccessful'))
 	assert expected.contains('Login was unsuccessful. Please correct the errors and try again.') == true
 	assert expected.contains('The credentials provided are incorrect') == true
 }
 
 if(id.equals("5"))
 {
-	expected = WebUI.getText(findTestObject('Object Repository/Page_Login/lbl_Login was unsuccessful'))
+	expected = WebUI.getText(findTestObject('Page_Login/lbl_Login was unsuccessful'))
 	assert expected.contains('Login was unsuccessful. Please correct the errors and try again.') == true
 	assert expected.contains('No customer account found') == true
 //	WebUI.verifyMatch(expected, 'No customer account found', false)
@@ -65,7 +65,7 @@ if(id.equals("5"))
 if(id.equals("6"))
 {
 	WebUI.click(findTestObject('Page_HomePage/a_My account'))
-	expected = WebUI.getAttribute(findTestObject('Object Repository/Page_Account Address/input_Email'), 'value')
+	expected = WebUI.getAttribute(findTestObject('Page_Account Address/input_Email'), 'value')
 	WebUI.verifyMatch(expected, email, false)
 }
 

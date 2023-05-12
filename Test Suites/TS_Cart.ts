@@ -15,7 +15,7 @@
       <guid>6a117a0b-36df-4199-83be-36a62cb781d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/TC_Cart/TC_Add Product/TC_Add Product_01_Success</testCaseId>
+      <testCaseId>Test Cases/Cart/TC_Add Product/TC_Add Product_01_Success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,14 +28,14 @@
       <guid>0b2afecd-d274-42a2-946c-1f808fd3f4a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/TC_Cart/TC_Add Product/TC_Add Product_02_Fail</testCaseId>
+      <testCaseId>Test Cases/Cart/TC_Add Product/TC_Add Product_02_Fail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
       <guid>2977e54d-0e9e-4300-ad4a-e2369945cb75</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Cart/TC_Update Cart</testCaseId>
+      <testCaseId>Test Cases/Cart/TC_Update Cart</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fbb2d934-74aa-4d82-9320-17da5a9ca643</id>
@@ -69,7 +69,7 @@
       <guid>dc0f43de-f0eb-4658-8754-deba15f191cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/TC_Cart/TC_Delete Product</testCaseId>
+      <testCaseId>Test Cases/Cart/TC_Delete Product</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

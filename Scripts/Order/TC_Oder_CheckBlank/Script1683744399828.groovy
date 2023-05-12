@@ -19,123 +19,100 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-//WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
+WebUI.click(findTestObject('Page_HomePage/a_Log in'))
+
+CustomKeywords.'Keyword_Helper.login'('arthur_holmes@nopCommerce.com', '123456')
+
+//WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 //
-//CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
-WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
+//WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 
-WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+WebUI.click(findTestObject('Page_Shopping Cart/button_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Shopping cart'))
+WebUI.verifyElementText(findTestObject('Page_Shopping Cart/p_Terms of service Error Message'), 'Please accept the terms of service before the next step.')
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Shopping Cart/button_Checkout'))
+WebUI.click(findTestObject('Page_Shopping Cart/button_CloseMessage'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Shopping Cart/p_Please accept the terms of service before_7d8c5c'), 
-    'Please accept the terms of service before the next step.')
+WebUI.click(findTestObject('Page_Shopping Cart/input_termsofservice'))
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Shopping Cart/button_Close'))
+WebUI.click(findTestObject('Page_Shopping Cart/button_Checkout'))
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Shopping Cart/input_245.00_termsofservice'))
+WebUI.click(findTestObject('Page_Checkout/Address/button_ContinueAddress'))
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Shopping Cart/button_Checkout'))
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_First name is required'), 'First name is required.')
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Login/button_Checkout as Guest'))
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Last name is required'), 'Last name is required.')
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinueAddress'))
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Email is required'), 'Email is required.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_First name is required'), 
-    'First name is required.')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Country is required'), 'Country is required.')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_Last name is required'), 
-    'Last name is required.')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_City is required'), 'City is required')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_Email is required'), 
-    'Email is required.')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Street address is required'), 'Street address is required')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_Country is required'), 
-    'Country is required.')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Zip  postal code is required'), 'Zip / postal code is required')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_City is required'), 
-    'City is required')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_Street address is required'), 
-    'Street address is required')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_Zip  postal code is required'), 
-    'Zip / postal code is required')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/span_Phone is required'), 
-    'Phone is required')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Phone is required'), 'Phone is required')
 
 CustomKeywords.'Keyword_Helper.addAddress'('Luyen', 'Nguyen', 'nhl@gmail.com', 'Viet Nam', 'Ha Noi', 'Dong Anh', '111', 
     '032648445')
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinueAddress'))
+WebUI.click(findTestObject('Page_Checkout/Address/button_ContinueAddress'))
 
-//WebUI.click(findTestObject('Page_Checkout/input_shippingoption', [('index') : '1']))
+//WebUI.click(findTestObject('Page_Checkout/Shipping Method/input_shippingoption', [('index') : '1']))
+WebUI.click(findTestObject('Page_Checkout/Shipping Method/button_ContinueShippingMethod'))
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinueShippingMethod'))
+WebUI.click(findTestObject('Page_Checkout/Payment Method/input_paymentmethod', [('index') : '1']))
 
-WebUI.click(findTestObject('Page_Checkout/input_paymentmethod', [('index') : '1']))
+WebUI.click(findTestObject('Page_Checkout/Payment Method/button_ContinuePaymentMethod'))
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentMethod'))
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Card number'), '4263982640269299')
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card number_CardNumber'), '4263982640269299')
+WebUI.selectOptionByValue(findTestObject('Page_Checkout/Payment Info/select_year'), '2024', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/select_202320242025202620272028202920302031_99023a'), 
-    '2024', true)
+WebUI.selectOptionByValue(findTestObject('Page_Checkout/Payment Info/select_month'), '4', true)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/select_010203040506070809101112'), 
-    '4', true)
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Card code'), '123')
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card code_CardCode'), '123')
+WebUI.click(findTestObject('Page_Checkout/Payment Info/button_ContinuePaymentInfo'))
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentInfo'))
+WebUI.verifyElementText(findTestObject('Page_Checkout/Payment Info/li_Enter cardholder name'), 'Enter cardholder name')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/li_Enter cardholder name'), 
-    'Enter cardholder name')
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Cardholder name'), 'Jame')
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Cardholder name_CardholderName'), 
-    'Jame')
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Card number'), '4')
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card number_CardNumber'), '4263982640269299')
+WebUI.click(findTestObject('Page_Checkout/Payment Info/button_ContinuePaymentInfo'))
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card number_CardNumber'), '4')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Payment Info/li_Wrong card number'), 'Wrong card number')
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentInfo'))
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Card number'), '4263982640269299')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/li_Wrong card number'), 
-    'Wrong card number')
+WebUI.selectOptionByValue(findTestObject('Page_Checkout/Payment Info/select_year'), '2023', true)
 
-WebUI.click(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/label_Card number'))
+WebUI.click(findTestObject('Page_Checkout/Payment Info/button_ContinuePaymentInfo'))
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card number_CardNumber'), '4263982640269299')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Payment Info/li_Card is expired'), 'Card is expired')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/select_202320242025202620272028202920302031_99023a'), 
-    '2023', true)
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Card code'), '')
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentInfo'))
+WebUI.selectOptionByValue(findTestObject('Page_Checkout/Payment Info/select_year'), '2024', true)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/li_Card is expired'), 'Card is expired')
+WebUI.click(findTestObject('Page_Checkout/Payment Info/button_ContinuePaymentInfo'))
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card code_CardCode'), '')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Payment Info/li_Wrong card code'), 'Wrong card code')
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/select_202320242025202620272028202920302031_99023a'), 
-    '2024', true)
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Card code'), '1')
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentInfo'))
+WebUI.click(findTestObject('Page_Checkout/Payment Info/button_ContinuePaymentInfo'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/li_Wrong card code'), 'Wrong card code')
+WebUI.verifyElementText(findTestObject('Page_Checkout/Payment Info/li_Wrong card code'), 'Wrong card code')
 
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card code_CardCode'), '1')
+WebUI.setText(findTestObject('Page_Checkout/Payment Info/input_Card code'), '123')
 
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentInfo'))
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/li_Wrong card code'), 'Wrong card code')
-
-WebUI.setText(findTestObject('Object Repository/Page_nopCommerce demo store. Checkout/input_Card code_CardCode'), '123')
-
-WebUI.click(findTestObject('Page_Checkout/button_ContinuePaymentInfo'))
+WebUI.click(findTestObject('Page_Checkout/Payment Info/button_ContinuePaymentInfo'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Checkout/button_Confirm'))
 

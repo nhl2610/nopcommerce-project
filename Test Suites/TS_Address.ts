@@ -15,7 +15,7 @@
       <guid>856a7020-88ae-46a8-a8bb-ef22dfe510bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Address/TC_Add Address</testCaseId>
+      <testCaseId>Test Cases/Address/TC_Add Address</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>da47e667-648e-48fe-a58a-2e41a030d591</id>
@@ -91,7 +91,7 @@
       <guid>3ed92591-bda2-42ef-930f-116cfb72e7cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Address/TC_Edit Address</testCaseId>
+      <testCaseId>Test Cases/Address/TC_Edit Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -146,7 +146,7 @@
       <guid>c9a4ec1e-9f9e-4347-99ea-eeefc26c5ac2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC_Address/TC_Delete Address</testCaseId>
+      <testCaseId>Test Cases/Address/TC_Delete Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
