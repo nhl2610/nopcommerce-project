@@ -16,75 +16,18 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+CustomKeywords.'OpenBrowser.initBrowser'()
 
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
+WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 
-println i
+WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
 
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
+WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 
-println i
+originalQuantity = WebUI.getAttribute(findTestObject('Page_Shopping Cart/Page_Products In Cart/input_quantity', [('i') : '1']), 'value')
 
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
+println originalQuantity
 
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
+CustomKeywords.'Keyword_Helper.clearsendKeys'(findTestObject('Page_Shopping Cart/Page_Products In Cart/input_quantity', [('i') : '1']), '5')
 
-println i
-
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
-
-println i
-
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
-
-println i
-
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
-
-println i
-
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
-
-println i
-
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,2)
-
-println i
-
-println '==================='
-
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
-i = CustomKeywords.'Keyword_Helper.randomNumber'(0,3)
-
-println i
+WebUI.click(findTestObject('Page_Shopping Cart/Page_Products In Cart/button_Update cart'))
