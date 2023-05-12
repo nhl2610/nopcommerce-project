@@ -31,35 +31,35 @@ WebUI.click(findTestObject('Page_Account Address/button_Edit'))
 
 CustomKeywords.'Keyword_Helper.addAddress'('', '', '', '', '', '', '', '')
 
-WebUI.click(findTestObject('Page_Account Address/button_Save'))
+WebUI.click(findTestObject('Page_Account Address/Detail/button_Save'))
 
 WebUI.delay(2)
 
-expected = WebUI.getText(findTestObject('Page_Account Address/span_First name is required'))
+expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_First name is required'))
 
 assert expected.contains("First name is required.") == true
 
-expected = WebUI.getText(findTestObject('Page_Account Address/span_Last name is required'))
+expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Last name is required'))
 
 assert expected.contains("Last name is required.") == true
 
-expected = WebUI.getText(findTestObject('Page_Account Address/span_Email is required'))
+expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Email is required'))
 
 assert expected.contains("Email is required.") == true
 
-expected = WebUI.getText(findTestObject('Page_Account Address/span_City is required'))
+expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_City is required'))
 
 assert expected.contains("City is required") == true
 
-expected = WebUI.getText(findTestObject('Page_Account Address/span_Street address is required'))
+expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Street address is required'))
 
 assert expected.contains("Street address is required") == true
 
-expected = WebUI.getText(findTestObject('Page_Account Address/span_Zip  postal code is required'))
+expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Zip  postal code is required'))
 
 assert expected.contains("Zip / postal code is required") == true
 
-expected = WebUI.getText(findTestObject('Page_Account Address/span_Phone is required'))
+expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Phone is required'))
 
 assert expected.contains("Phone is required") == true
 

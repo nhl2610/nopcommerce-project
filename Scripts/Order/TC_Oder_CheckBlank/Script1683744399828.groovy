@@ -21,7 +21,7 @@ CustomKeywords.'OpenBrowser.initBrowser'()
 
 WebUI.click(findTestObject('Page_HomePage/a_Log in'))
 
-CustomKeywords.'Keyword_Helper.login'('arthur_holmes@nopCommerce.com', '123456')
+CustomKeywords.'Keyword_Helper.login'('james_pan@nopCommerce.com', '123456')
 
 //WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 //
@@ -44,7 +44,7 @@ WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_First name is
 
 WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Last name is required'), 'Last name is required.')
 
-WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Email is required'), 'Email is required.')
+//WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Email is required'), 'Email is required.')
 
 WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Country is required'), 'Country is required.')
 

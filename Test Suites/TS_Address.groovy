@@ -33,11 +33,7 @@ import com.kms.katalon.core.annotation.TearDownTestCase
  */
 @SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() { 
-	CustomKeywords.'OpenBrowser.initBrowser'()
-	
-	WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
-	
-	CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
+
 }
 
 /**
@@ -45,7 +41,7 @@ def setUp() {
  */
 @TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
-	WebUI.closeBrowser()
+
 }
 
 /**

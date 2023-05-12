@@ -19,12 +19,10 @@ import org.openqa.selenium.Keys as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
-//WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
-//
-//WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
 
-//WebUI.click(findTestObject('Object Repository/Page_HomePage/a_Log in'))
-//CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
+CustomKeywords.'Keyword_Helper.login'('arthur_holmes@nopCommerce.com', '123456')
+
 WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 
 originalQuantity = WebUI.getAttribute(findTestObject('Page_Shopping Cart/Page_Products In Cart/input_quantity', [('i') : '1']), 'value')

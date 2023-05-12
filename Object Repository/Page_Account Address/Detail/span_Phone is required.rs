@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Phone is required</name>
+   <tag></tag>
+   <elementGuidId>06718fa1-1628-4830-89b8-a741bee2b53c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#Address_PhoneNumber-error</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='Address_PhoneNumber-error']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>ffe40fcb-a476-4dbd-9414-74ca2c821431</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Address_PhoneNumber-error</value>
+      <webElementGuid>95bd7dca-4a54-477c-8025-07287d27affd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Phone is required</value>
+      <webElementGuid>c3efa088-5ada-4cb2-9acb-77cfb2399ba0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Address_PhoneNumber-error&quot;)</value>
+      <webElementGuid>9eadf732-bad9-4ab7-bac5-34167767c8f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//span[@id='Address_PhoneNumber-error']</value>
+      <webElementGuid>f69df3ba-f70c-42f8-8aad-988eb653dc08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::span[2]</value>
+      <webElementGuid>86e1ace8-71e5-41c1-98df-405a5b276363</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone number:'])[1]/following::span[3]</value>
+      <webElementGuid>4739162b-05b6-4eb5-a524-e9472a54d3bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax number:'])[1]/preceding::span[1]</value>
+      <webElementGuid>c40b2213-1ae0-4b09-9435-6dc7b02c1a9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/preceding::span[2]</value>
+      <webElementGuid>71e7743d-d9be-4c31-869a-7f32c3649f06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Phone is required']/parent::*</value>
+      <webElementGuid>053a489f-8dae-4887-9d32-702c55a87fa8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[11]/span[2]/span</value>
+      <webElementGuid>304aea0e-a0d6-4a61-b8b5-0d7f6ce6c2bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@id = 'Address_PhoneNumber-error' and (text() = 'Phone is required' or . = 'Phone is required')]</value>
+      <webElementGuid>6014fb05-52d2-4ed9-8590-e1440e0211ab</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

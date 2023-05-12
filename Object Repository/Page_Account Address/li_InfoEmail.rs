@@ -6,12 +6,12 @@
    <elementGuidId>f097094c-42fa-4150-b214-b2f5af123885</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='email'][1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.email</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@class='email'])[${i}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>5fc0a9c1-7d9c-4af6-ae32-d92094a026fb</webElementGuid>
+      <webElementGuid>b4016315-2af9-4152-8c07-2fe47c2e9b06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>1fffce88-da75-42f8-a371-43555ee3e823</webElementGuid>
+      <webElementGuid>928582ac-7544-4128-aa5c-3b0706b2c87d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Email: yyangduong@gmail.com</value>
-      <webElementGuid>fdd9f0ba-db79-427c-8632-22894a6160f3</webElementGuid>
+      <webElementGuid>827d2a7b-f137-41b8-987b-57a1f04486d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;html-account-page html-address-list-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page account-page address-list-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;address-list&quot;]/div[@class=&quot;section address-item&quot;]/ul[@class=&quot;info&quot;]/li[@class=&quot;email&quot;]</value>
-      <webElementGuid>30baeb90-d312-46af-a555-9c27b49b7094</webElementGuid>
+      <webElementGuid>1760efc3-4589-438d-9917-eea9e40942b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyễn Hường'])[2]/following::li[1]</value>
-      <webElementGuid>2f63dc99-3aec-43a0-a6e2-aed0f99d8f26</webElementGuid>
+      <webElementGuid>efac1ec0-214d-40b6-8b5b-ba1c5a1e16be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nguyễn Hường'])[1]/following::li[2]</value>
-      <webElementGuid>a30a2de4-3743-4c59-a589-b088950ff241</webElementGuid>
+      <webElementGuid>a5be7d6c-a9e3-45df-a553-995980c6e714</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='yyangduong@gmail.com']/parent::*</value>
-      <webElementGuid>c5c1e46c-46af-4e47-aa5a-943c75af46b9</webElementGuid>
+      <webElementGuid>bf65e156-cae6-4556-b813-4856614d7d94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[2]</value>
-      <webElementGuid>299a23cd-bb09-4980-9049-f9b54075208e</webElementGuid>
+      <webElementGuid>5a4379ec-d8d8-4c9e-8fa7-5a9159f50ae6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Email: yyangduong@gmail.com' or . = 'Email: yyangduong@gmail.com')]</value>
-      <webElementGuid>d2b8fe9b-77d6-49ec-bed5-2d13c81e8866</webElementGuid>
+      <webElementGuid>ffbb612d-c60b-47e8-b649-b646125cc10d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

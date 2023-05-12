@@ -31,80 +31,78 @@ WebUI.click(findTestObject('Page_Account Address/button_Add new'))
 
 CustomKeywords.'Keyword_Helper.addAddress'(firstname, lastname, email, country, city, address, zipcode, phone)
 
-WebUI.click(findTestObject('Page_Account Address/button_Save'))
+WebUI.click(findTestObject('Page_Account Address/Detail/button_Save'))
 
 if (id == '4') {
     WebUI.delay(2)
 
     WebUI.click(findTestObject('Page_Account Address/span_My account_close'))
 
-    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoEmail'))
+    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoEmail', [('i') : '3']))
 
     assert expected.contains(email) == true
 
-    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoPhone'))
+    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoPhone', [('i') : '3']))
 
     assert expected.contains(phone) == true
 
-    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoAddress1'))
+    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoAddress1', [('i') : '3']))
 
     assert expected.contains(address) == true
 
-    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoCityZipcode'))
+    expected = WebUI.getText(findTestObject('Page_Account Address/li_InfoCityZipcode', [('i') : '3']))
 
     assert expected.contains(zipcode) == true
 
     assert expected.contains(city) == true
 
-    assert WebUI.getText(findTestObject('Page_Account Address/li_InfoCountry')).contains(country) == true
+    assert WebUI.getText(findTestObject('Page_Account Address/li_InfoCountry', [('i') : '3'])).contains(country) == true
 }
 
-if(id == '1')
-{
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_First name is required'))
-	
-	assert expected.contains("First name is required.") == true
-	
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_Last name is required'))
-	
-	assert expected.contains("Last name is required.") == true
-	
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_Email is required'))
-	
-	assert expected.contains("Email is required.") == true
-	
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_City is required'))
-	
-	assert expected.contains("City is required") == true
-	
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_Street address is required'))
-	
-	assert expected.contains("Street address is required") == true
-	
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_Zip  postal code is required'))
-	
-	assert expected.contains("Zip / postal code is required") == true
-	
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_Phone is required'))
-	
-	assert expected.contains("Phone is required") == true
-	
+if (id == '1') {
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_First name is required'))
+
+    assert expected.contains('First name is required.') == true
+
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Last name is required'))
+
+    assert expected.contains('Last name is required.') == true
+
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Email is required'))
+
+    assert expected.contains('Email is required.') == true
+
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_City is required'))
+
+    assert expected.contains('City is required') == true
+
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Street address is required'))
+
+    assert expected.contains('Street address is required') == true
+
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Zip  postal code is required'))
+
+    assert expected.contains('Zip / postal code is required') == true
+
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Phone is required'))
+
+    assert expected.contains('Phone is required') == true
 }
 
-if(id=="2")
-{
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_Email is required'))
-	
-	assert expected.contains("Wrong email") == true
+if (id == '2') {
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Email is required'))
+
+    assert expected.contains('Wrong email') == true
 }
 
-if(id=="3")
-{
-	WebUI.delay(2)
-	WebUI.click(findTestObject('Page_Account Address/span_My account_close'))
-	expected = WebUI.getText(findTestObject('Page_Account Address/span_Phone is required'))
+if (id == '3') {
+    WebUI.delay(2)
 
-	assert expected.contains("Phone is wrong") == true
+    WebUI.click(findTestObject('Page_Account Address/span_My account_close'))
+
+    expected = WebUI.getText(findTestObject('Page_Account Address/Detail/span_Phone is required'))
+
+    assert expected.contains('Phone is wrong') == true
 }
 
 WebUI.closeBrowser()

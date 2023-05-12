@@ -65,7 +65,7 @@ if(id.equals("5"))
 if(id.equals("6"))
 {
 	WebUI.click(findTestObject('Page_HomePage/a_My account'))
-	expected = WebUI.getAttribute(findTestObject('Page_Account Address/input_Email'), 'value')
+	expected = WebUI.getAttribute(findTestObject('Page_Account/input_Email'), 'value')
 	WebUI.verifyMatch(expected, email, false)
 }
 

@@ -9,6 +9,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
+      <variableId>b992f32a-c23f-4ef5-9b46-264475604373</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
       <variableId>18c0eb89-7b31-4196-b41f-310775bcef7a</variableId>
    </variableLinks>
    <variableLinks>
@@ -54,56 +60,63 @@
       <variableId>e121bc9f-744e-43e7-8f89-b3d037562660</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Hai Luyen'</defaultValue>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b992f32a-c23f-4ef5-9b46-264475604373</id>
+      <masked>false</masked>
+      <name>id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>18c0eb89-7b31-4196-b41f-310775bcef7a</id>
       <masked>false</masked>
       <name>firstname</name>
    </variable>
    <variable>
-      <defaultValue>'Nguyen'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>1d98322e-b577-45c4-805e-ce8402d17f36</id>
       <masked>false</masked>
       <name>lastname</name>
    </variable>
    <variable>
-      <defaultValue>'luyen@gmail.com'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>09a618fb-29f6-42e1-8650-333c07a4ebec</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
-      <defaultValue>'Viet Nam'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>aaca3014-b822-4b66-8545-d80700848e91</id>
       <masked>false</masked>
       <name>country</name>
    </variable>
    <variable>
-      <defaultValue>'HCM'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>200f7c32-5b24-41c1-8e10-ed9b19c1d418</id>
       <masked>false</masked>
       <name>city</name>
    </variable>
    <variable>
-      <defaultValue>'111 HCM'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>7018bc7f-ea60-4de5-8022-085e2a285847</id>
       <masked>false</masked>
       <name>address</name>
    </variable>
    <variable>
-      <defaultValue>'456'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>1faf7190-08cf-43d9-b281-d5917dd6cb21</id>
       <masked>false</masked>
       <name>zipcode</name>
    </variable>
    <variable>
-      <defaultValue>'0254879521'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e121bc9f-744e-43e7-8f89-b3d037562660</id>
       <masked>false</masked>

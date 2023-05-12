@@ -6,12 +6,12 @@
    <elementGuidId>0d79661e-25b1-4779-8391-c67bb79bb461</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='address1'][1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.address1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@class='address1'])[${i}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>f416a7fb-07be-41c8-8fb6-c8a3ac9bf415</webElementGuid>
+      <webElementGuid>cb14c129-7465-48e1-9a28-ba0490190b64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>address1</value>
-      <webElementGuid>ff2c0f9b-642a-4c99-a641-7b941a9e0bbc</webElementGuid>
+      <webElementGuid>597eabc5-95bd-47cb-b01c-a0e3268de584</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>5a Trung Kính</value>
-      <webElementGuid>4c815af2-f83b-438c-8afe-f5b57b0ee1b2</webElementGuid>
+      <webElementGuid>244d184c-9716-4564-94b6-380a173616bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;html-account-page html-address-list-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page account-page address-list-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;address-list&quot;]/div[@class=&quot;section address-item&quot;]/ul[@class=&quot;info&quot;]/li[@class=&quot;address1&quot;]</value>
-      <webElementGuid>51ba30ed-d14e-4e54-8c54-d4bc8cbe5b13</webElementGuid>
+      <webElementGuid>5ec3c26d-dc68-48b5-9d1c-c6914e593701</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax number:'])[1]/following::li[1]</value>
-      <webElementGuid>23827560-e1d5-4e16-8dc6-8db6f9cb6987</webElementGuid>
+      <webElementGuid>0f21411c-1c68-4760-85f3-54a5aee2c27a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone number:'])[1]/following::li[2]</value>
-      <webElementGuid>51200905-c235-4aa3-902a-2a993ea4db37</webElementGuid>
+      <webElementGuid>8ce0c70f-b868-42cd-b576-190c05bde7cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hà Nội, Texas, 2133456'])[1]/preceding::li[1]</value>
-      <webElementGuid>cb03f32f-c08c-43dc-9c10-5aae9f7bb4d2</webElementGuid>
+      <webElementGuid>570902ba-e3f6-467a-90ef-1c5219b6f56e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='United States'])[1]/preceding::li[2]</value>
-      <webElementGuid>7e6c35f3-ac31-4ffb-9a0b-e82fa9b00143</webElementGuid>
+      <webElementGuid>1c8577ca-b1c7-4e1e-bf3b-2aaba30fb348</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='5a Trung Kính']/parent::*</value>
-      <webElementGuid>c356194b-2329-4014-b3ac-d23416e61f56</webElementGuid>
+      <webElementGuid>2c5e58b7-cc0d-4479-bca8-602a921f5fb5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[5]</value>
-      <webElementGuid>db34c3d9-4410-4999-9082-c007cc269115</webElementGuid>
+      <webElementGuid>80b65593-5b6d-40aa-8a98-48f4cd9de827</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = '5a Trung Kính' or . = '5a Trung Kính')]</value>
-      <webElementGuid>56a1c623-1076-4f6d-815f-b91d1a5feef0</webElementGuid>
+      <webElementGuid>a504741a-e212-4e3d-a5b9-94b4eafb11a4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

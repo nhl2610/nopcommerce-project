@@ -6,12 +6,12 @@
    <elementGuidId>9518f3e2-8336-46b3-9084-14d5f8f62881</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(@class,'edit-address-button')][2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.button-2.edit-address-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(@class,'edit-address-button')][1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d394b5f3-f3a0-4661-9380-21179afc500d</webElementGuid>
+      <webElementGuid>cf0804c0-453e-455d-bfd2-0d8bb801898b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ff7fc0ab-04e5-479e-8c2b-5f0edde5b904</webElementGuid>
+      <webElementGuid>1d1540a1-a7c5-4b58-8c4a-65adc4cec441</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-2 edit-address-button</value>
-      <webElementGuid>4a6bcb2b-58c3-436e-bbea-a7dd82e0f0eb</webElementGuid>
+      <webElementGuid>3a471842-2437-4145-bc76-f7533197addc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>location.href=&quot;/customer/addressedit/3206&quot;</value>
-      <webElementGuid>3fdc9e00-36a0-48ba-ab85-dd12a1aba737</webElementGuid>
+      <webElementGuid>c7be6d81-0201-44f3-8c51-69f07037056f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>eff83da3-4b36-496d-94a4-cdb4eb84653f</webElementGuid>
+      <webElementGuid>9622986e-1422-4ce6-b926-0fdf3d3187dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;html-account-page html-address-list-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page account-page address-list-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;address-list&quot;]/div[@class=&quot;section address-item&quot;]/div[@class=&quot;buttons&quot;]/button[@class=&quot;button-2 edit-address-button&quot;]</value>
-      <webElementGuid>b5ea233f-f7b4-45d8-ada9-eda268bc7fc7</webElementGuid>
+      <webElementGuid>f5e556ce-4685-490b-aff5-c1c74dcda2f8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='button']</value>
-      <webElementGuid>12c40b5a-e53d-48ab-9061-647aaa83ccc9</webElementGuid>
+      <webElementGuid>2c0e3ad4-959d-455f-a851-ce4299480494</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='United States'])[1]/following::button[1]</value>
-      <webElementGuid>0e938ffe-2afd-4ef3-bc70-9ce84b41fb6f</webElementGuid>
+      <webElementGuid>8e5af710-ad2f-4a67-9920-3344ea5f305e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Hà Nội, Texas, 2133456'])[1]/following::button[1]</value>
-      <webElementGuid>d3d1c392-b9e0-4f85-9108-bf06cefbdc92</webElementGuid>
+      <webElementGuid>b4ecede2-7faf-48e4-b525-d53eb7fff64d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/preceding::button[1]</value>
-      <webElementGuid>315dbb95-1c1b-4d02-8b5e-8f4ab00965a9</webElementGuid>
+      <webElementGuid>33bce20f-451d-494c-9e90-c2ad48cacf6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add new'])[1]/preceding::button[2]</value>
-      <webElementGuid>faed0d30-3a54-481d-9a1a-de784388799d</webElementGuid>
+      <webElementGuid>8906b2e2-c6d4-4a52-8dd3-03bd0b9860b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>501c18a2-14de-460c-9730-48f5461f0436</webElementGuid>
+      <webElementGuid>7fc0919f-b7de-4c17-866b-c00091b6c797</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div[2]/div/div/div[2]/button</value>
-      <webElementGuid>c4b92adc-4f14-4977-bab2-be431acce20b</webElementGuid>
+      <webElementGuid>d3724784-832d-48ba-8215-8967abe48b48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +126,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>13e8a1fb-d2a8-442d-bb75-b9e3f05bd7a1</webElementGuid>
+      <webElementGuid>b08c9599-1d12-497a-87b7-2e69495719c9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

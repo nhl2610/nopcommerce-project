@@ -6,12 +6,12 @@
    <elementGuidId>9e8fb377-62c4-47d8-945f-38ef102ae840</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@class='phone'][1]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.phone</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//li[@class='phone'])[${i}]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>32dade26-56f0-447b-b0dc-944d17b7a088</webElementGuid>
+      <webElementGuid>c09b49ab-1b9c-4336-a93a-19c0724d7be1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>phone</value>
-      <webElementGuid>2aa80d27-71e1-4850-93b3-03d057de6cae</webElementGuid>
+      <webElementGuid>4c4c77fe-d8d1-473f-a28d-53050acf66dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Phone number: jfmygt</value>
-      <webElementGuid>d3f4bf77-6af6-47ae-8822-f391e5aaa526</webElementGuid>
+      <webElementGuid>112b9599-e65a-4315-8f9a-da58d6e69398</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;html-account-page html-address-list-page&quot;]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-column-wrapper&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page account-page address-list-page&quot;]/div[@class=&quot;page-body&quot;]/div[@class=&quot;address-list&quot;]/div[@class=&quot;section address-item&quot;]/ul[@class=&quot;info&quot;]/li[@class=&quot;phone&quot;]</value>
-      <webElementGuid>600a979e-14a6-4b97-b0e3-a6b384fed557</webElementGuid>
+      <webElementGuid>235d7334-d163-423d-b9f3-2fc54f2a03ae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Email:'])[1]/following::li[1]</value>
-      <webElementGuid>bb50d2a2-0531-4064-aae7-d77a86cfb872</webElementGuid>
+      <webElementGuid>a1663a78-21cf-4092-8e24-1a5a191e7783</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fax number:'])[1]/preceding::li[1]</value>
-      <webElementGuid>5fb01026-81ba-4f85-ad43-804731702cb0</webElementGuid>
+      <webElementGuid>e93ea6e5-b318-4d05-b638-12cff6c34d72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='jfmygt']/parent::*</value>
-      <webElementGuid>797920fc-7d4b-4fa2-90bd-5d6482e5ad65</webElementGuid>
+      <webElementGuid>3836abff-4f06-4181-8c49-3777d92e2fb0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/ul/li[3]</value>
-      <webElementGuid>5b0505d7-4eb3-44f8-b762-7a8e3074087a</webElementGuid>
+      <webElementGuid>91a88041-e60a-4cca-805d-eaa212d49f23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[(text() = 'Phone number: jfmygt' or . = 'Phone number: jfmygt')]</value>
-      <webElementGuid>0f1ffcea-6516-4ce8-8162-a375a5ba463c</webElementGuid>
+      <webElementGuid>acd19568-4323-4471-9f16-3ca403c641c0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

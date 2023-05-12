@@ -54,41 +54,41 @@ public class Keyword_Helper {
 	@Keyword
 	def addAddress(String firstname, String lastname, String email, String country, String city, String address, String zipcode, String phone) {
 
-		WebUI.clearText(findTestObject('Page_Account Address/input_Address.First name'))
+		WebUI.clearText(findTestObject('Page_Account Address/Detail/input_Address.First name'))
 
-		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.First name'), firstname)
-
-
-		WebUI.clearText(findTestObject('Page_Account Address/input_Address.Last name'))
-
-		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.Last name'), lastname)
+		WebUI.sendKeys(findTestObject('Page_Account Address/Detail/input_Address.First name'), firstname)
 
 
-		WebUI.clearText(findTestObject('Page_Account Address/input_Address.Email'))
+		WebUI.clearText(findTestObject('Page_Account Address/Detail/input_Address.Last name'))
 
-		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.Email'), email)
-
-		if(country != "") WebUI.selectOptionByLabel(findTestObject('Page_Account Address/select_Select country'), country, true)
-			else WebUI.selectOptionByIndex(findTestObject('Page_Account Address/select_Select country'), 0, true)
-
-		WebUI.clearText(findTestObject('Page_Account Address/input_Address.City'))
-
-		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.City'), city)
+		WebUI.sendKeys(findTestObject('Page_Account Address/Detail/input_Address.Last name'), lastname)
 
 
-		WebUI.clearText(findTestObject('Page_Account Address/input_Address.Address1'))
+		WebUI.clearText(findTestObject('Page_Account Address/Detail/input_Address.Email'))
 
-		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.Address1'), address)
+		WebUI.sendKeys(findTestObject('Page_Account Address/Detail/input_Address.Email'), email)
+
+		if(country != "") WebUI.selectOptionByLabel(findTestObject('Page_Account Address/Detail/select_Select country'), country, true)
+		else WebUI.selectOptionByValue(findTestObject('Page_Account Address/Detail/select_Select country'), '0', true)
+
+		WebUI.clearText(findTestObject('Page_Account Address/Detail/input_Address.City'))
+
+		WebUI.sendKeys(findTestObject('Page_Account Address/Detail/input_Address.City'), city)
 
 
-		WebUI.clearText(findTestObject('Page_Account Address/input_Address.ZipPostalCode'))
+		WebUI.clearText(findTestObject('Page_Account Address/Detail/input_Address.Address1'))
 
-		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.ZipPostalCode'), zipcode)
+		WebUI.sendKeys(findTestObject('Page_Account Address/Detail/input_Address.Address1'), address)
 
 
-		WebUI.clearText(findTestObject('Page_Account Address/input_Address.PhoneNumber'))
+		WebUI.clearText(findTestObject('Page_Account Address/Detail/input_Address.ZipPostalCode'))
 
-		WebUI.sendKeys(findTestObject('Page_Account Address/input_Address.PhoneNumber'), phone)
+		WebUI.sendKeys(findTestObject('Page_Account Address/Detail/input_Address.ZipPostalCode'), zipcode)
+
+
+		WebUI.clearText(findTestObject('Page_Account Address/Detail/input_Address.PhoneNumber'))
+
+		WebUI.sendKeys(findTestObject('Page_Account Address/Detail/input_Address.PhoneNumber'), phone)
 	}
 
 	@Keyword

@@ -5,14 +5,21 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
+   <rerunImmediately>false</rerunImmediately>
    <testSuiteGuid>47ba3759-19be-4db6-9a18-4b0c5a17b223</testSuiteGuid>
    <testCaseLink>
-      <guid>fae8d710-4be8-4c78-b2d7-cc4ae2dff1ab</guid>
+      <guid>9b41c38c-ccc7-4741-9a58-6c5b9d848a40</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Order/TC_Oder_CheckBlank</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6bd2fa4b-9fe6-4287-827d-81b78f6e4de8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Order/TC_Order</testCaseId>

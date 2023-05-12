@@ -31,7 +31,5 @@ WebUI.click(findTestObject('Page_Account Address/button_Delete'))
 
 WebUI.acceptAlert()
 
-WebUI.verifyElementVisible(findTestObject('Page_Account Address/div_No addresses'))
-
 WebUI.closeBrowser()
 

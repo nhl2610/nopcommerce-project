@@ -88,62 +88,77 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3ed92591-bda2-42ef-930f-116cfb72e7cd</guid>
+      <guid>05f341c2-8574-4ed1-b3b7-68f1ee4b4035</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Address/TC_Edit Address</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4285b024-db76-4614-b36d-45fefed88e3b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DF_Address</testDataId>
+      </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
          <variableId>18c0eb89-7b31-4196-b41f-310775bcef7a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
          <variableId>1d98322e-b577-45c4-805e-ce8402d17f36</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>09a618fb-29f6-42e1-8650-333c07a4ebec</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>country</value>
          <variableId>aaca3014-b822-4b66-8545-d80700848e91</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>city</value>
          <variableId>200f7c32-5b24-41c1-8e10-ed9b19c1d418</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>address</value>
          <variableId>7018bc7f-ea60-4de5-8022-085e2a285847</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>zipcode</value>
          <variableId>1faf7190-08cf-43d9-b281-d5917dd6cb21</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>phone</value>
          <variableId>e121bc9f-744e-43e7-8f89-b3d037562660</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4285b024-db76-4614-b36d-45fefed88e3b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>id</value>
+         <variableId>b992f32a-c23f-4ef5-9b46-264475604373</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>c9a4ec1e-9f9e-4347-99ea-eeefc26c5ac2</guid>
+      <guid>245e469a-4849-4b80-a4fe-e4410536e02a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Address/TC_Delete Address</testCaseId>

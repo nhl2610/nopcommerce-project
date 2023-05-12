@@ -48,7 +48,7 @@ WebUI.verifyMatch(quantity, quantity2, false)
 
 
 //=============================================//
-/*
+
 WebUI.navigateToUrl(GlobalVariable.url)
 
 WebUI.click(findTestObject('Page_HomePage/a_Build your own computer'))
@@ -105,6 +105,6 @@ WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 WebUI.verifyElementVisible(findTestObject('Page_Shopping Cart/Page_Products In Cart/div_From Luyen luyengmail.comFor Nguyen Hai_1efad2'))
 
 WebUI.verifyElementVisible(findTestObject('Page_Shopping Cart/Page_Products In Cart/a_25 Virtual Gift Card'))
-*/
+
 WebUI.closeBrowser()
 

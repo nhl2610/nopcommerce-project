@@ -1,5 +1,5 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import org.openqa.selenium.WebElement
+import org.openqa.selenium.WebElement as WebElement
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -16,26 +16,31 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys
+import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as Keys
 
 CustomKeywords.'OpenBrowser.initBrowser'()
 
 WebUI.click(findTestObject('Page_HomePage/a_Log in'))
 
-CustomKeywords.'Keyword_Helper.login'('arthur_holmes@nopCommerce.com', '123456')
+CustomKeywords.'Keyword_Helper.login'('james_pan@nopCommerce.com', '123456')
 
 WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 
-List<WebElement> listPriceObj = WebUI.findWebElements(findTestObject('Page_Shopping Cart/Page_Products In Cart/span_listPrice'), 5)
-def listPrice = [];
+List<WebElement> listPriceObj = WebUI.findWebElements(findTestObject('Page_Shopping Cart/Page_Products In Cart/span_listPrice'), 
+    5)
 
-List<WebElement> listQuantityObj = WebUI.findWebElements(findTestObject('Page_Shopping Cart/Page_Products In Cart/span_listQuantity'), 5)
-def listQuantity = [];
+def listPrice = []
 
-for (int i = 0;  i < listPriceObj.size(); ++i) {
-	listPrice.add(listPriceObj.get(i).getText());
-	listQuantity.add(listQuantityObj.get(i).getAttribute('value'));
+List<WebElement> listQuantityObj = WebUI.findWebElements(findTestObject('Page_Shopping Cart/Page_Products In Cart/span_listQuantity'), 
+    5)
+
+def listQuantity = []
+
+for (int i = 0; i < listPriceObj.size(); ++i) {
+    listPrice.add(listPriceObj.get(i).getText())
+
+    listQuantity.add(listQuantityObj.get(i).getAttribute('value'))
 }
 
 WebUI.click(findTestObject('Page_Shopping Cart/input_You will earn_termsofservice'))
@@ -44,7 +49,6 @@ WebUI.click(findTestObject('Page_Shopping Cart/button_Checkout'))
 
 //CustomKeywords.'Keyword_Helper.addAddress'('Luyen', 'Nguyen', 'nhl@gmail.com', 'Viet Nam', 'Ha Noi', 'Dong Anh', '111', 
 //    '032648445')
-
 WebUI.click(findTestObject('Page_Checkout/Address/button_ContinueAddress'))
 
 shippingoption = CustomKeywords.'Keyword_Helper.randomNumber'(0, 3)
@@ -99,18 +103,20 @@ List<WebElement> listPriceObj2 = WebUI.findWebElements(findTestObject('Page_Orde
 
 List<WebElement> listQuantityObj2 = WebUI.findWebElements(findTestObject('Page_Order Details/span_listQuantity'), 5)
 
-def listPrice2 = [];
+def listPrice2 = []
 
-def listQuantity2 = [];
+def listQuantity2 = []
 
-for (int i = 0;  i < listPriceObj.size(); ++i) {
-	listPrice2.add(listPriceObj2.get(i).getText());
-	listQuantity2.add(listQuantityObj2.get(i).getText());
+for (int i = 0; i < listPriceObj.size(); ++i) {
+    listPrice2.add(listPriceObj2.get(i).getText())
+
+    listQuantity2.add(listQuantityObj2.get(i).getText())
 }
 
-for (int i = 0;  i < listPrice.size(); ++i) {
-	if(!listPrice[i].equals(listPrice2[i]) || !listQuantity[i].equals(listQuantity2[i]) )
-		assert false;
+for (int i = 0; i < listPrice.size(); ++i) {
+    if (!((listPrice[i]).equals(listPrice2[i])) || !((listQuantity[i]).equals(listQuantity2[i]))) {
+        assert false
+    }
 }
 
 WebUI.closeBrowser()
