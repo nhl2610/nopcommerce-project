@@ -22,7 +22,7 @@
       <guid>51a70588-9bbc-49f7-82a6-3e678b5f150e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cart/TC_Add Product/TC_Add Product_01_Success</testCaseId>
+      <testCaseId>Test Cases/Cart/TC_Add Product/TC_Add Product_01</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -35,7 +35,7 @@
       <guid>efa28382-f015-473f-a548-228386995405</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Cart/TC_Add Product/TC_Add Product_02_Fail</testCaseId>
+      <testCaseId>Test Cases/Cart/TC_Add Product/TC_Add Product_02</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>

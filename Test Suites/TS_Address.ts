@@ -90,7 +90,7 @@
    <testCaseLink>
       <guid>05f341c2-8574-4ed1-b3b7-68f1ee4b4035</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Address/TC_Edit Address</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -160,7 +160,7 @@
    <testCaseLink>
       <guid>245e469a-4849-4b80-a4fe-e4410536e02a</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/Address/TC_Delete Address</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>

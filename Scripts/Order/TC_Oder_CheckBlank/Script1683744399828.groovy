@@ -21,7 +21,7 @@ CustomKeywords.'OpenBrowser.initBrowser'()
 
 WebUI.click(findTestObject('Page_HomePage/a_Log in'))
 
-CustomKeywords.'Keyword_Helper.login'('james_pan@nopCommerce.com', '123456')
+CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
 
 //WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
 //
