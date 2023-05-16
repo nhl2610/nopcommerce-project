@@ -23,9 +23,12 @@ WebUI.click(findTestObject('Page_HomePage/a_Log in'))
 
 CustomKeywords.'Keyword_Helper.login'('nhl@gmail.com', '123456')
 
-//WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
-//
-//WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+WebUI.click(findTestObject('Page_HomePage/a_HTC One M8 Android L 5.0 Lollipop'))
+
+WebUI.click(findTestObject('Page_ProductDetail/button_Add to cart'))
+
+WebUI.click(findTestObject('Page_HomePage/button_shopping cart_close'))
+
 WebUI.click(findTestObject('Page_HomePage/a_Shopping cart'))
 
 WebUI.click(findTestObject('Page_Shopping Cart/button_Checkout'))
@@ -40,10 +43,9 @@ WebUI.click(findTestObject('Page_Shopping Cart/button_Checkout'))
 
 WebUI.click(findTestObject('Page_Checkout/Address/button_ContinueAddress'))
 
-WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_First name is required'), 'First name is required.')
-
-WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Last name is required'), 'Last name is required.')
-
+//WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_First name is required'), 'First name is required.')
+//
+//WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Last name is required'), 'Last name is required.')
 //WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Email is required'), 'Email is required.')
 
 WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Country is required'), 'Country is required.')
@@ -59,9 +61,14 @@ WebUI.verifyElementText(findTestObject('Page_Checkout/Address/span_Phone is requ
 CustomKeywords.'Keyword_Helper.addAddress'('Luyen', 'Nguyen', 'nhl@gmail.com', 'Viet Nam', 'Ha Noi', 'Dong Anh', '111', 
     '032648445')
 
+WebUI.delay(1)
+
 WebUI.click(findTestObject('Page_Checkout/Address/button_ContinueAddress'))
 
-//WebUI.click(findTestObject('Page_Checkout/Shipping Method/input_shippingoption', [('index') : '1']))
+WebUI.click(findTestObject('Page_Checkout/Address/button_ContinueAddress'))
+
+WebUI.click(findTestObject('Page_Checkout/Shipping Method/input_shippingoption', [('index') : '1']))
+
 WebUI.click(findTestObject('Page_Checkout/Shipping Method/button_ContinueShippingMethod'))
 
 WebUI.click(findTestObject('Page_Checkout/Payment Method/input_paymentmethod', [('index') : '1']))

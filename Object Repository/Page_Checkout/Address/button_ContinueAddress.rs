@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='billing-buttons-container']//button[@onclick='Billing.save()']</value>
+         <value>(//button[contains(@class,&quot;new-address-next-step-button&quot;)])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0357c136-b76e-46f3-b9fd-41b996b05639</webElementGuid>
+      <webElementGuid>c09c3e90-7f6e-437c-a7cf-b8ef00f04a01</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0c651222-a3c9-49ad-bcfb-bcd4c3a12554</webElementGuid>
+      <webElementGuid>d2d0a860-785a-4be3-90e4-922b22c75c3b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>save</value>
-      <webElementGuid>a97d5303-896d-47a3-9a0d-f2d7ab9f5867</webElementGuid>
+      <webElementGuid>61e5c9e5-ab22-441c-adaa-486ebf97d550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>class</name>
       <type>Main</type>
       <value>button-1 payment-method-next-step-button</value>
-      <webElementGuid>faefc249-ce7d-4cd7-891b-2c6734d7cb3f</webElementGuid>
+      <webElementGuid>4bf626c7-1cba-4831-aaf9-a6cc2b2152dc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>PaymentMethod.save()</value>
-      <webElementGuid>ecea8641-fe70-4d1c-adb2-d3227c89ad14</webElementGuid>
+      <webElementGuid>67a84f01-7672-4d92-9bf6-2eabc4087a0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Continue</value>
-      <webElementGuid>fe002dd5-8a7f-4025-973d-0a0690ae289f</webElementGuid>
+      <webElementGuid>f678db6e-7d2f-48b8-af07-1230f1976e55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;payment-method-buttons-container&quot;)/button[@class=&quot;button-1 payment-method-next-step-button&quot;]</value>
-      <webElementGuid>cf0c9219-b718-4b47-b6a2-d829c248de94</webElementGuid>
+      <webElementGuid>fb0ff755-598e-47f7-b4bd-b51ae21c1b23</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@name='save'])[2]</value>
-      <webElementGuid>72178aa3-4234-4e8f-9702-ed208b256488</webElementGuid>
+      <webElementGuid>f670dc49-51b4-42e1-80f2-0c0588aa19c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='payment-method-buttons-container']/button</value>
-      <webElementGuid>958540b2-9612-458d-b657-1929417358f1</webElementGuid>
+      <webElementGuid>55f6e826-55dc-4752-8747-ddb07a5c0070</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='«'])[3]/following::button[1]</value>
-      <webElementGuid>4fee41ca-c153-41a3-91e4-6b1447204719</webElementGuid>
+      <webElementGuid>a544a897-3fef-416d-8046-735d180c9216</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay by credit / debit card'])[1]/following::button[1]</value>
-      <webElementGuid>cb1657ab-2a23-4c60-88c3-3d0b5f74dc50</webElementGuid>
+      <webElementGuid>fb43bc93-8caa-4b46-903b-c70615bbbedd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment information'])[1]/preceding::button[1]</value>
-      <webElementGuid>bb1e4f1d-0755-414d-803a-c2afce8cbb7a</webElementGuid>
+      <webElementGuid>579686f1-6857-4acb-beac-28a4b4eba52b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment is not required'])[1]/preceding::button[1]</value>
-      <webElementGuid>85bf0c24-7053-42e8-99ce-e2f6e32e3991</webElementGuid>
+      <webElementGuid>293a1b1d-bbdf-45f4-ab0a-d17fe019bef8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[4]/div[2]/div/button</value>
-      <webElementGuid>62778d0d-f973-4919-a267-32011bc80e71</webElementGuid>
+      <webElementGuid>0ad1a8ed-e1b4-4dd8-bca6-7443ed26c29b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @name = 'save' and (text() = 'Continue' or . = 'Continue')]</value>
-      <webElementGuid>0828ae3d-edf0-431b-8c50-8c78b06f4386</webElementGuid>
+      <webElementGuid>39e633fc-1dda-4297-9408-e889f80a2b5b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
